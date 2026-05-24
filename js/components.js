@@ -227,8 +227,8 @@ const LUCIDECORE_HEADER = `
 									data-widget_type="rstb-site-logo.default">
 									<div class="rstb-site-logo">
 										<a href="/index.html"><img
-												src="../images/logos_001.png"
-												alt="IT Solutions"></a>
+												src="images/logo-without-bg-crop.png"
+												alt="LucideCore"></a>
 									</div>
 								</div>
 							</div>
@@ -298,8 +298,8 @@ const LUCIDECORE_HEADER = `
 													</svg>
 												</button>
 												<div class="mobile-panel-logo"><img
-														src="../images/logos_002.png"
-														title="logos_002" alt="logos_002" loading="lazy" /></div>
+														src="images/logo-without-bg-crop.png"
+														title="logo" alt="logo" loading="lazy" /></div>
 												<ul id="menu-mobile-menu" class="mobile-menu has-vertical-divider">
 													<li id="menu-item-4916"
 														class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-13 current_page_item menu-item-4916">
@@ -467,8 +467,8 @@ const LUCIDECORE_HEADER = `
 															data-widget_type="rstb-site-logo.default">
 															<div class="rstb-site-logo">
 																<a href="/index.html"><img
-																		src="../images/logos_002.png"
-																		alt="IT Solutions"></a>
+																		src="images/logo-without-bg-crop.png"
+																		alt="LucideCore"></a>
 															</div>
 														</div>
 														<div class="elementor-element elementor-element-1d793780 gsap-move-no rs-tween_max_btn-no elementor-widget elementor-widget-rs-heading"
@@ -607,9 +607,9 @@ const LUCIDECORE_HEADER = `
 																		<div class="address-text">
 																			<div class="text">
 
-																				<a href="tel:+990123456789%20">
+																				<a href="tel:+15550000000">
 																					<span class="des">
-																						Call us: +990 123 456 789
+																						Call us: +1 (555) 000-0000
 																					</span>
 																				</a>
 																			</div>
@@ -626,9 +626,9 @@ const LUCIDECORE_HEADER = `
 																		<div class="address-text">
 																			<div class="text">
 
-																				<a href="mailto:consulting@gmail.com">
+																				<a href="mailto:contact@lucidecore.com">
 																					<span class="des">
-																						Email: construction@gmail.com
+																						Email: contact@lucidecore.com
 																					</span>
 																				</a>
 																			</div>
@@ -646,7 +646,7 @@ const LUCIDECORE_HEADER = `
 																			<div class="text">
 
 																				<span class="des">
-																					Hours: Mon-Fri: 8.00am - 18.00pm
+																					Hours: Mon-Fri: 10:00 AM - 7:00 PM
 																				</span>
 																			</div>
 
@@ -773,8 +773,8 @@ const LUCIDECORE_HEADER = `
 								data-widget_type="rstb-site-logo.default">
 								<div class="rstb-site-logo">
 									<a href="/index.html"><img
-											src="../images/logos_001.png"
-											alt="IT Solutions"></a>
+											src="images/logo-without-bg-crop.png"
+											alt="LucideCore"></a>
 								</div>
 							</div>
 						</div>
@@ -844,8 +844,8 @@ const LUCIDECORE_HEADER = `
 												</svg>
 											</button>
 											<div class="mobile-panel-logo"><img
-													src="../images/logos_002.png"
-													title="logos_002" alt="logos_002" loading="lazy" /></div>
+													src="images/logo-without-bg-crop.png"
+													title="logo" alt="logo" loading="lazy" /></div>
 											<ul id="menu-mobile-menu-1" class="mobile-menu has-vertical-divider">
 												<li
 													class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-13 current_page_item menu-item-4916">
@@ -1010,8 +1010,8 @@ const LUCIDECORE_HEADER = `
 														data-e-type="widget" data-widget_type="rstb-site-logo.default">
 														<div class="rstb-site-logo">
 															<a href="/index.html"><img
-																	src="../images/logos_002.png"
-																	alt="IT Solutions"></a>
+																	src="images/logo-without-bg-crop.png"
+																	alt="LucideCore"></a>
 														</div>
 													</div>
 													<div class="elementor-element elementor-element-1d793780 gsap-move-no rs-tween_max_btn-no elementor-widget elementor-widget-rs-heading"
@@ -1145,9 +1145,9 @@ const LUCIDECORE_HEADER = `
 																	<div class="address-text">
 																		<div class="text">
 
-																			<a href="tel:+990123456789%20">
+																			<a href="tel:+15550000000">
 																				<span class="des">
-																					Call us: +990 123 456 789 </span>
+																					Call us: +1 (555) 000-0000 </span>
 																			</a>
 																		</div>
 
@@ -1163,9 +1163,9 @@ const LUCIDECORE_HEADER = `
 																	<div class="address-text">
 																		<div class="text">
 
-																			<a href="mailto:consulting@gmail.com">
+																			<a href="mailto:contact@lucidecore.com">
 																				<span class="des">
-																					Email: construction@gmail.com
+																					Email: contact@lucidecore.com
 																				</span>
 																			</a>
 																		</div>
@@ -1183,7 +1183,7 @@ const LUCIDECORE_HEADER = `
 																		<div class="text">
 
 																			<span class="des">
-																				Hours: Mon-Fri: 8.00am - 18.00pm </span>
+																				Hours: Mon-Fri: 10:00 AM - 7:00 PM </span>
 																		</div>
 
 
@@ -1315,8 +1315,8 @@ const LUCIDECORE_FOOTER = `
 										data-widget_type="rstb-site-logo.default">
 										<div class="rstb-site-logo">
 											<a href="/index.html"><img
-													src="../images/logos_002.png"
-													alt="IT Solutions"></a>
+													src="images/logo-crop-2.jpeg"
+													alt="LucideCore" style="max-width: 130px; border-radius: 10px;"></a>
 										</div>
 									</div>
 									<div class="elementor-element elementor-element-50238243 elementor-widget__width-initial elementor-widget-tablet__width-inherit gsap-move-no rs-tween_max_btn-no elementor-widget elementor-widget-rs-heading"
@@ -1385,7 +1385,7 @@ const LUCIDECORE_FOOTER = `
 														<div class="text">
 
 															<span class="des">
-																Hours: Mon-Fri: 9.00am - 18.00pm </span>
+																Hours: Mon-Fri: 10:00 AM - 7:00 PM </span>
 														</div>
 
 
@@ -1758,48 +1758,7 @@ const LUCIDECORE_FOOTER = `
 											</div>
 										</div>
 									</div>
-									<div class="elementor-element elementor-element-1e2ce7ee e-con-full e-flex e-con e-child"
-										data-id="1e2ce7ee" data-element_type="container" data-e-type="container">
-										<div class="elementor-element elementor-element-27883eb6 elementor-widget__width-initial elementor-widget-tablet__width-inherit gsap-move-no rs-tween_max_btn-no elementor-widget elementor-widget-rs-logo"
-											data-id="27883eb6" data-element_type="widget" data-e-type="widget"
-											data-widget_type="rs-logo.default">
-											<div class="elementor-widget-container">
-												<div class="rsaddon-unique-slider">
-													<div class="rs-logo-slider addon-slider-121346 style1">
-														<div class="row">
-															<div
-																class="logo-item col-xl-3 col-lg-4 col-md-4 col-sm-4 col-4">
-																<a href="#" class="logo-item-wrapper">
-																	<div class="image-wrapper">
-																		<img src="../images/footer-logo.png"
-																			alt="footer-logo.png">
-																	</div>
-																</a>
-															</div>
-															<div
-																class="logo-item col-xl-3 col-lg-4 col-md-4 col-sm-4 col-4">
-																<a href="#" class="logo-item-wrapper">
-																	<div class="image-wrapper">
-																		<img src="../images/brand-logo1-1.png"
-																			alt="brand-logo1-1.png">
-																	</div>
-																</a>
-															</div>
-															<div
-																class="logo-item col-xl-3 col-lg-4 col-md-4 col-sm-4 col-4">
-																<a href="#" class="logo-item-wrapper">
-																	<div class="image-wrapper">
-																		<img src="../images/brand-logo1-2.png"
-																			alt="brand-logo1-2.png">
-																	</div>
-																</a>
-															</div>
-														</div>
-													</div> <!-- .rs-logo-slider -->
-												</div> <!-- .rsaddon-unique-slider -->
-											</div>
-										</div>
-									</div>
+									
 								</div>
 							</div>
 						</div>
@@ -1954,4 +1913,3 @@ const LUCIDECORE_FOOTER = `
     }
   });
 })();
-
