@@ -130,7 +130,7 @@ const LUCIDECORE_HEADER = `
 
 													<div class="phone">
 
-														<a href="tel:+15550000000">Call us: +1 (555) 000-0000</a>
+														<a href="tel:+15550000000">Call us: +91 790-562-4513</a>
 													</div>
 
 
@@ -196,7 +196,7 @@ const LUCIDECORE_HEADER = `
 
 														<a href="mailto:contact@lucidecore.com">
 															<span class="des">
-																Send mail: contact@lucidecore.com </span>
+																Send mail: Lucidecore@gmail.com </span>
 														</a>
 													</div>
 
@@ -480,9 +480,7 @@ const LUCIDECORE_HEADER = `
 																	<div class="title-inner">
 																	</div>
 																	<div class="descripti">
-																		<p>We love to bring to life as a developer and I
-																			aim the today do this using what ever front
-																			tools necessary.</p>
+																		<p>We are passionate about creating modern, scalable, and user-friendly digital experiences using the latest technologies.</p>
 																	</div>
 																</div>
 															</div>
@@ -609,7 +607,7 @@ const LUCIDECORE_HEADER = `
 
 																				<a href="tel:+15550000000">
 																					<span class="des">
-																						Call us: +1 (555) 000-0000
+																						Call us: +91 790-562-4513
 																					</span>
 																				</a>
 																			</div>
@@ -626,9 +624,9 @@ const LUCIDECORE_HEADER = `
 																		<div class="address-text">
 																			<div class="text">
 
-																				<a href="mailto:contact@lucidecore.com">
+																				<a href="mailto:lucidecore@gmail.com">
 																					<span class="des">
-																						Email: contact@lucidecore.com
+																						Email: Lucidecore@gmail.com
 																					</span>
 																				</a>
 																			</div>
@@ -997,9 +995,7 @@ const LUCIDECORE_HEADER = `
 														data-id="197f5a0f" data-element_type="widget"
 														data-e-type="widget" data-widget_type="rstb-site-logo.default">
 														<div class="rstb-site-logo">
-															<a href="/index.html"><img
-																	src="images/logo-without-bg-crop.png"
-																	alt="LucideCore"></a>
+															<a href="/index.html"><img src="images/logo-crop-2.jpeg" alt="LucideCore" style="max-width: 130px; border-radius: 10px;"></a>
 														</div>
 													</div>
 													<div class="elementor-element elementor-element-1d793780 gsap-move-no rs-tween_max_btn-no elementor-widget elementor-widget-rs-heading"
@@ -1024,96 +1020,7 @@ const LUCIDECORE_HEADER = `
 														<div class="elementor-image-gallery">
 															<div id='gallery-1'
 																class='gallery galleryid-13 gallery-columns-3 gallery-size-thumbnail'>
-																<figure class='gallery-item'>
-																	<div class='gallery-icon landscape'>
-																		<a data-elementor-open-lightbox="yes"
-																			data-elementor-lightbox-slideshow="41ed0909"
-																			data-elementor-lightbox-title="blog_06"
-																			data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MTEzMSwidXJsIjoiaHR0cHM6XC9cL3RlY2h6ZW53cC5yc3RoZW1lLmNvbVwvaXQtc29sdXRpb25zXC93cC1jb250ZW50XC91cGxvYWRzXC9zaXRlc1wvMlwvMjAyNlwvMDRcL2Jsb2dfMDYuanBnIiwic2xpZGVzaG93IjoiNDFlZDA5MDkifQ%3D%3D"
-																			href='../images/blog_06.jpg'><img
-																				width="150" height="150"
-																				src="../images/blog_06.jpg"
-																				class="attachment-thumbnail size-thumbnail"
-																				alt="" decoding="async"
-																				srcset="../images/blog_06.jpg 150w, ../images/blog_06-500x500.jpg 500w"
-																				sizes="(max-width: 150px) 100vw, 150px" /></a>
-																	</div>
-																</figure>
-																<figure class='gallery-item'>
-																	<div class='gallery-icon landscape'>
-																		<a data-elementor-open-lightbox="yes"
-																			data-elementor-lightbox-slideshow="41ed0909"
-																			data-elementor-lightbox-title="blog_05"
-																			data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MTEyOCwidXJsIjoiaHR0cHM6XC9cL3RlY2h6ZW53cC5yc3RoZW1lLmNvbVwvaXQtc29sdXRpb25zXC93cC1jb250ZW50XC91cGxvYWRzXC9zaXRlc1wvMlwvMjAyNlwvMDRcL2Jsb2dfMDUuanBnIiwic2xpZGVzaG93IjoiNDFlZDA5MDkifQ%3D%3D"
-																			href='../images/blog_05.jpg'><img
-																				width="150" height="150"
-																				src="../images/blog_05.jpg"
-																				class="attachment-thumbnail size-thumbnail"
-																				alt="" decoding="async"
-																				srcset="../images/blog_05.jpg 150w, ../images/blog_05-500x500.jpg 500w"
-																				sizes="(max-width: 150px) 100vw, 150px" /></a>
-																	</div>
-																</figure>
-																<figure class='gallery-item'>
-																	<div class='gallery-icon landscape'>
-																		<a data-elementor-open-lightbox="yes"
-																			data-elementor-lightbox-slideshow="41ed0909"
-																			data-elementor-lightbox-title="blog_04"
-																			data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MTEyMywidXJsIjoiaHR0cHM6XC9cL3RlY2h6ZW53cC5yc3RoZW1lLmNvbVwvaXQtc29sdXRpb25zXC93cC1jb250ZW50XC91cGxvYWRzXC9zaXRlc1wvMlwvMjAyNlwvMDRcL2Jsb2dfMDQuanBnIiwic2xpZGVzaG93IjoiNDFlZDA5MDkifQ%3D%3D"
-																			href='../images/blog_04.jpg'><img
-																				width="150" height="150"
-																				src="../images/blog_04.jpg"
-																				class="attachment-thumbnail size-thumbnail"
-																				alt="" decoding="async"
-																				srcset="../images/blog_04.jpg 150w, ../images/blog_04-500x500.jpg 500w"
-																				sizes="(max-width: 150px) 100vw, 150px" /></a>
-																	</div>
-																</figure>
-																<figure class='gallery-item'>
-																	<div class='gallery-icon landscape'>
-																		<a data-elementor-open-lightbox="yes"
-																			data-elementor-lightbox-slideshow="41ed0909"
-																			data-elementor-lightbox-title="blog_03"
-																			data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MTEyMCwidXJsIjoiaHR0cHM6XC9cL3RlY2h6ZW53cC5yc3RoZW1lLmNvbVwvaXQtc29sdXRpb25zXC93cC1jb250ZW50XC91cGxvYWRzXC9zaXRlc1wvMlwvMjAyNlwvMDRcL2Jsb2dfMDMuanBnIiwic2xpZGVzaG93IjoiNDFlZDA5MDkifQ%3D%3D"
-																			href='../images/blog_03.jpg'><img
-																				loading="lazy" width="150" height="150"
-																				src="../images/blog_03.jpg"
-																				class="attachment-thumbnail size-thumbnail"
-																				alt="" decoding="async"
-																				srcset="../images/blog_03.jpg 150w, ../images/blog_03-500x500.jpg 500w"
-																				sizes="(max-width: 150px) 100vw, 150px" /></a>
-																	</div>
-																</figure>
-																<figure class='gallery-item'>
-																	<div class='gallery-icon landscape'>
-																		<a data-elementor-open-lightbox="yes"
-																			data-elementor-lightbox-slideshow="41ed0909"
-																			data-elementor-lightbox-title="blog_02"
-																			data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MTExNiwidXJsIjoiaHR0cHM6XC9cL3RlY2h6ZW53cC5yc3RoZW1lLmNvbVwvaXQtc29sdXRpb25zXC93cC1jb250ZW50XC91cGxvYWRzXC9zaXRlc1wvMlwvMjAyNlwvMDRcL2Jsb2dfMDIuanBnIiwic2xpZGVzaG93IjoiNDFlZDA5MDkifQ%3D%3D"
-																			href='../images/blog_02.jpg'><img
-																				loading="lazy" width="150" height="150"
-																				src="../images/blog_02.jpg"
-																				class="attachment-thumbnail size-thumbnail"
-																				alt="" decoding="async"
-																				srcset="../images/blog_02.jpg 150w, ../images/blog_02-500x500.jpg 500w"
-																				sizes="(max-width: 150px) 100vw, 150px" /></a>
-																	</div>
-																</figure>
-																<figure class='gallery-item'>
-																	<div class='gallery-icon landscape'>
-																		<a data-elementor-open-lightbox="yes"
-																			data-elementor-lightbox-slideshow="41ed0909"
-																			data-elementor-lightbox-title="blog_01"
-																			data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MTA5NSwidXJsIjoiaHR0cHM6XC9cL3RlY2h6ZW53cC5yc3RoZW1lLmNvbVwvaXQtc29sdXRpb25zXC93cC1jb250ZW50XC91cGxvYWRzXC9zaXRlc1wvMlwvMjAyNlwvMDRcL2Jsb2dfMDEuanBnIiwic2xpZGVzaG93IjoiNDFlZDA5MDkifQ%3D%3D"
-																			href='../images/blog_01.jpg'><img
-																				loading="lazy" width="150" height="150"
-																				src="../images/blog_01.jpg"
-																				class="attachment-thumbnail size-thumbnail"
-																				alt="" decoding="async"
-																				srcset="../images/blog_01.jpg 150w, ../images/blog_01-500x500.jpg 500w"
-																				sizes="(max-width: 150px) 100vw, 150px" /></a>
-																	</div>
-																</figure>
+																
 															</div>
 														</div>
 													</div>
@@ -1135,7 +1042,7 @@ const LUCIDECORE_HEADER = `
 
 																			<a href="tel:+15550000000">
 																				<span class="des">
-																					Call us: +1 (555) 000-0000 </span>
+																					Call us: +91 790-562-4513 </span>
 																			</a>
 																		</div>
 
@@ -1151,9 +1058,9 @@ const LUCIDECORE_HEADER = `
 																	<div class="address-text">
 																		<div class="text">
 
-																			<a href="mailto:contact@lucidecore.com">
+																			<a href="mailto:lucidecore@gmail.com">
 																				<span class="des">
-																					Email: contact@lucidecore.com
+																					Email: Lucidecore@gmail.com
 																				</span>
 																			</a>
 																		</div>
@@ -1304,7 +1211,7 @@ const LUCIDECORE_FOOTER = `
 												<div class="title-inner">
 												</div>
 												<div class="descripti">
-													LucideCore is a leading technology solutions provider dedicated to building innovative software, web, and mobile applications. </div>
+													LucideCore delivers modern web, mobile, and software solutions tailored for startups, businesses, and growing brands.</div>
 											</div>
 										</div>
 									</div>
@@ -1326,7 +1233,7 @@ const LUCIDECORE_FOOTER = `
 
 															<a href="tel:+15550000000">
 																<span class="des">
-																	Call us: +1 (555) 000-0000 </span>
+																	Call us: +91 790-562-4513 </span>
 															</a>
 														</div>
 
@@ -1342,9 +1249,9 @@ const LUCIDECORE_FOOTER = `
 													<div class="address-text">
 														<div class="text">
 
-															<a href="mailto:contact@lucidecore.com">
+															<a href="mailto:lucidecore@gmail.com">
 																<span class="des">
-																	Email: contact@lucidecore.com </span>
+																	Email: Lucidecore@gmail.com </span>
 															</a>
 														</div>
 
@@ -1789,7 +1696,7 @@ const LUCIDECORE_FOOTER = `
 										data-id="7b4d6ab1" data-element_type="widget" data-e-type="widget"
 										data-widget_type="rstb-copyright.default">
 										<p class="rstb-copyright">© Copyright 2026 <a
-												href="index.html">LucideCore</a></p>
+												href="index.html">LucideCore IT Solutions</a></p>
 									</div>
 								</div>
 							</div>

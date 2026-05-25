@@ -115,7 +115,7 @@ input[type="submit"].wpcf7-submit {
 input[type="submit"].wpcf7-submit:hover {
     transform: translateY(-3px) scale(1.02);
     box-shadow: var(--button-glow) !important;
-    color: var(--white) !important;
+    /* color: var(--white) !important; */
 }
 
 /* 4. Headings */
@@ -247,13 +247,13 @@ section:nth-of-type(odd),
 
 /* FAQ Accordion */
 .rs-accordion .accordion-item .accordion-header .accordion-title {
-    color: var(--dark-indigo) !important;
+    /* color: var(--dark-indigo) !important; */
     font-weight: 600;
 }
 
-.rs-accordion .accordion-item.active .accordion-header .accordion-title {
+/* .rs-accordion .accordion-item.active .accordion-header .accordion-title {
     color: var(--primary-purple) !important;
-}
+} */
 
 /* Form inputs */
 input:not([type="submit"]), textarea, select {

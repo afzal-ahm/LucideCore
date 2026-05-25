@@ -3871,7 +3871,7 @@ body .miniform textarea {
   right: 40px;
   z-index: 10;
   border-radius: 50%;
-  background: var(--primaryColor);
+  background: #7B2CFF;
   padding: 1px;
   transition: background 0.3s;
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
