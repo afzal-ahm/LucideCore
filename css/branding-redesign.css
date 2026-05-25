@@ -125,12 +125,16 @@ h1, h2, h3, h4, h5, h6, .title {
 
 
 /* Highlighted text */
-/* span.highlight,
+span.highlight,
 .primary-color,
 .text-primary,
 .sub-text {
     color: #c5aef1 !important;
-} */
+}
+
+.sub-text-white{
+    color: #7B2CFF !important;
+}
 
 
 
@@ -255,19 +259,17 @@ section:nth-of-type(odd),
 input:not([type="submit"]), textarea, select {
     border: 1px solid var(--border-light) !important;
     border-radius: 12px !important;
-    padding: 12px 15px !important;
-    background: #FAFAFF !important;
 }
 
 input:focus, textarea:focus {
     border-color: var(--primary-purple) !important;
     box-shadow: 0 0 0 4px rgba(123, 44, 255, 0.1) !important;
-    background: var(--white) !important;
+    /* background: var(--white) !important; */
 }
 
 /* Marquee Text */
 .marquee-item p {
-    color: var(--dark-indigo) !important;
+    /* color: var(--dark-indigo) !important; */
     font-weight: 500;
 }
 
