@@ -236,10 +236,10 @@ section:nth-of-type(odd),
 }
 
 /* Counter Odometer */
-.odometer {
+/* .odometer {
     color: var(--primary-purple) !important;
     font-weight: 700 !important;
-}
+} */
 
 /* FAQ Accordion */
 .rs-accordion .accordion-item .accordion-header .accordion-title {
