@@ -1,0 +1,299 @@
+/* ==========================================================================
+   LucideCore Branding Redesign - Final Polish
+   Modern, Premium, Futuristic SaaS Aesthetic
+   ========================================================================== */
+
+:root {
+    /* Brand Colors */
+    --primary-purple: #7B2CFF;
+    --accent-purple: #A855F7;
+    --dark-indigo: #1B1464;
+    --deep-background: #14003D;
+    --light-section-bg: #F7F5FF;
+    --main-text: #2B2B3A;
+    --paragraph-text: #55556B;
+    --white: #FFFFFF;
+    --border-light: #ECE7FF;
+    
+    /* Gradients */
+    --purple-gradient: linear-gradient(135deg, #7B2CFF, #A855F7);
+    --dark-gradient: linear-gradient(135deg, #14003D, #1B1464);
+    
+    /* Shadows & Glows */
+    --soft-purple-shadow: 0 10px 30px rgba(123, 44, 255, 0.08);
+    --button-glow: 0 8px 25px rgba(123, 44, 255, 0.4);
+    --icon-glow: 0 0 15px rgba(123, 44, 255, 0.3);
+
+    /* Elementor Global Overrides */
+    --e-global-color-primary: var(--primary-purple);
+    --e-global-color-secondary: var(--dark-indigo);
+    --e-global-color-text: var(--paragraph-text);
+    --e-global-color-accent: var(--accent-purple);
+    --e-global-color-4d7b7af: var(--dark-indigo);
+    --e-global-color-1d62194: var(--light-section-bg);
+    --e-global-color-d3d3e2d: var(--deep-background);
+}
+
+/* Global resets for Elementor Kit */
+.elementor-kit-5256 {
+    --e-global-color-primary: #7B2CFF !important;
+    --e-global-color-secondary: #1B1464 !important;
+    --e-global-color-text: #55556B !important;
+    --e-global-color-accent: #A855F7 !important;
+    --e-global-color-4d7b7af: #1B1464 !important;
+    --e-global-color-1d62194: #F7F5FF !important;
+    --e-global-color-d3d3e2d: #14003D !important;
+}
+
+/* 1. Navbar */
+.rstb-header {
+    background-color: var(--white) !important;
+}
+
+.rstb-header .primary-menu .menu-item .menu-item-link {
+    color: var(--dark-indigo) !important;
+    transition: all 0.3s ease;
+}
+
+.rstb-header .primary-menu .menu-item:hover > .menu-item-link {
+    color: var(--primary-purple) !important;
+    text-shadow: 0 0 8px rgba(123, 44, 255, 0.2);
+}
+
+.rstb-header .primary-menu .menu-item.current-menu-item > .menu-item-link {
+    color: var(--primary-purple) !important;
+}
+
+/* Navbar CTA Button "Get Free Quote" */
+.rstb-header .rs-button.style1 a.rs-btn {
+    background: var(--purple-gradient) !important;
+    /* border-radius: 12px !important; */
+    color: var(--white) !important;
+    border: none !important;
+    padding: 12px 25px !important;
+    /* box-shadow: var(--button-glow); */
+}
+
+/* 2. Hero Section */
+/* Main Hero Background */
+.elementor-element-ebd228f,
+.elementor-element-a93f372,
+.elementor-element-2fe477d { 
+    background: var(--dark-gradient) !important;
+}
+
+.elementor-element-ebd228f h2.title,
+.elementor-element-ebd228f h1.title {
+    color: var(--white) !important;
+}
+
+.elementor-element-ebd228f .sub-text,
+.elementor-element-a93f372 .sub-text {
+    color: var(--accent-purple) !important;
+}
+
+/* 3. Global Buttons */
+/* .rs-button.style1 a.rs-btn,
+.rs-btn,
+.services-btn,
+.form-btn-area input[type="submit"],
+input[type="submit"].wpcf7-submit {
+    background: var(--purple-gradient) !important;
+    color: var(--white) !important;
+    border-radius: 12px !important;
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275) !important;
+    border: none !important;
+    font-weight: 600 !important;
+    text-transform: uppercase !important;
+    letter-spacing: 0.5px !important;
+} */
+
+.rs-button.style1 a.rs-btn:hover,
+.rs-btn:hover,
+.services-btn:hover,
+.form-btn-area input[type="submit"]:hover,
+input[type="submit"].wpcf7-submit:hover {
+    transform: translateY(-3px) scale(1.02);
+    box-shadow: var(--button-glow) !important;
+    color: var(--white) !important;
+}
+
+/* 4. Headings */
+h1, h2, h3, h4, h5, h6, .title {
+    color: var(--dark-indigo);
+}
+
+
+/* Highlighted text */
+/* span.highlight,
+.primary-color,
+.text-primary,
+.sub-text {
+    color: #c5aef1 !important;
+} */
+
+
+
+/* 5. Cards / Service Boxes */
+/* .rs-service-grid,
+.services-inner,
+.post-wrapper,
+.testimonial-inner,
+.accordion-item,
+.pricing-item {
+    background-color: var(--white) !important;
+    border: 1px solid var(--border-light) !important;
+    box-shadow: var(--soft-purple-shadow) !important;
+    border-radius: 16px !important;
+    transition: all 0.3s ease !important;
+} */
+
+.rs-service-grid:hover,
+.services-inner:hover,
+.post-wrapper:hover {
+    transform: translateY(-8px) !important;
+    border-color: var(--primary-purple) !important;
+}
+
+/* 6. Icons */
+.address-icon,
+.icon_style,
+.quote_icon svg,
+.ri-star-fill,
+.feature-icon i {
+    color: var(--primary-purple) !important;
+    transition: all 0.3s ease;
+}
+
+.address-icon svg path,
+.icon_style svg path,
+.list-icon-wrap svg path {
+    fill: var(--primary-purple) !important;
+}
+
+.icon_style:hover,
+.address-icon:hover {
+    filter: drop-shadow(0 0 8px rgba(123, 44, 255, 0.4));
+}
+
+/* 7. Section Backgrounds (Alternating) */
+section:nth-of-type(even),
+.elementor-section:nth-of-type(even),
+.e-con-parent:nth-of-type(even) {
+    background-color: var(--light-section-bg) !important;
+}
+
+section:nth-of-type(odd),
+.elementor-section:nth-of-type(odd),
+.e-con-parent:nth-of-type(odd) {
+    background-color: var(--white) !important;
+}
+
+/* Reset for hero/footer which should stay dark */
+.elementor-element-ebd228f,
+.elementor-element-a93f372,
+.elementor-element-2fe477d,
+.rstb-footer,
+.elementor-35 {
+    background: var(--dark-gradient) !important;
+}
+
+/* 8. Footer */
+.rstb-footer,
+.elementor-35 {
+    background: var(--dark-gradient) !important;
+    color: var(--white) !important;
+}
+
+.rstb-footer .title,
+.rstb-footer h4,
+.rstb-footer p,
+.rstb-footer .rstb-copyright,
+.rstb-footer .menu-item-text {
+    color: var(--white) !important;
+}
+
+.rstb-footer a {
+    color: rgba(255, 255, 255, 0.8) !important;
+    transition: color 0.3s ease;
+}
+
+.rstb-footer a:hover {
+    color: var(--accent-purple) !important;
+}
+
+/* 9. Decorative Elements */
+.divider-line,
+.divider-circle,
+.services-box-line,
+.line-rain-animation span,
+.timeline-divider .divider-line {
+    background-color: var(--primary-purple) !important;
+}
+
+.divider-circle {
+    border-color: var(--primary-purple) !important;
+}
+
+/* Counter Odometer */
+.odometer {
+    color: var(--primary-purple) !important;
+    font-weight: 700 !important;
+}
+
+/* FAQ Accordion */
+.rs-accordion .accordion-item .accordion-header .accordion-title {
+    color: var(--dark-indigo) !important;
+    font-weight: 600;
+}
+
+.rs-accordion .accordion-item.active .accordion-header .accordion-title {
+    color: var(--primary-purple) !important;
+}
+
+/* Form inputs */
+input:not([type="submit"]), textarea, select {
+    border: 1px solid var(--border-light) !important;
+    border-radius: 12px !important;
+    padding: 12px 15px !important;
+    background: #FAFAFF !important;
+}
+
+input:focus, textarea:focus {
+    border-color: var(--primary-purple) !important;
+    box-shadow: 0 0 0 4px rgba(123, 44, 255, 0.1) !important;
+    background: var(--white) !important;
+}
+
+/* Marquee Text */
+.marquee-item p {
+    color: var(--dark-indigo) !important;
+    font-weight: 500;
+}
+
+/* Progress Bars */
+.skillbar-bar {
+    background: var(--purple-gradient) !important;
+}
+
+.skillbar-title {
+    color: var(--dark-indigo) !important;
+}
+
+/* Pricing Switcher */
+.pricing-switcher .nav-pills .nav-link.active {
+    background: var(--purple-gradient) !important;
+}
+
+/* Scroll Top Button */
+#scrollUp i {
+    background: var(--purple-gradient) !important;
+}
+
+/* Custom Glow Effects for Background Shapes */
+.shape-glow {
+    filter: blur(80px);
+    background: rgba(123, 44, 255, 0.15);
+    position: absolute;
+    z-index: -1;
+}
