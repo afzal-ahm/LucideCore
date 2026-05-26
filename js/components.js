@@ -130,7 +130,7 @@ const LUCIDECORE_HEADER = `
 
 													<div class="phone">
 
-														<a href="tel:+15550000000">Call us: +91 790-562-4513</a>
+														<a href="tel:+917905624513">Call us: +91 790-562-4513</a>
 													</div>
 
 
@@ -194,7 +194,7 @@ const LUCIDECORE_HEADER = `
 												<div class="address-text">
 													<div class="text">
 
-														<a href="mailto:contact@lucidecore.com">
+														<a href="mailto:lucidecore@gmail.com">
 															<span class="des">
 																Send mail: Lucidecore@gmail.com </span>
 														</a>
@@ -605,7 +605,7 @@ const LUCIDECORE_HEADER = `
 																		<div class="address-text">
 																			<div class="text">
 
-																				<a href="tel:+15550000000">
+																				<a href="tel:+917905624513">
 																					<span class="des">
 																						Call us: +91 790-562-4513
 																					</span>
@@ -1707,80 +1707,80 @@ const LUCIDECORE_FOOTER = `
 		`;
 
 (function () {
-  // 1. Inject Header
-  const headerEl = document.querySelector('header.rstb-header');
-  if (headerEl) {
-    headerEl.innerHTML = LUCIDECORE_HEADER;
-  }
+	// 1. Inject Header
+	const headerEl = document.querySelector('header.rstb-header');
+	if (headerEl) {
+		headerEl.innerHTML = LUCIDECORE_HEADER;
+	}
 
-  // 2. Inject Footer
-  const footerEl = document.querySelector('footer.rstb-footer');
-  if (footerEl) {
-    footerEl.innerHTML = LUCIDECORE_FOOTER;
-  }
+	// 2. Inject Footer
+	const footerEl = document.querySelector('footer.rstb-footer');
+	if (footerEl) {
+		footerEl.innerHTML = LUCIDECORE_FOOTER;
+	}
 
-  // 3. Set Active Navigation Item
-  const path = window.location.pathname;
-  let page = path.split('/').pop() || 'index.html';
-  if (page === '') page = 'index.html';
+	// 3. Set Active Navigation Item
+	const path = window.location.pathname;
+	let page = path.split('/').pop() || 'index.html';
+	if (page === '') page = 'index.html';
 
-  // Normalize page name
-  if (page.startsWith('/')) page = page.substring(1);
+	// Normalize page name
+	if (page.startsWith('/')) page = page.substring(1);
 
-  // Remove existing active classes from all menu items
-  document.querySelectorAll('.rstb-header .menu-item').forEach(li => {
-    li.classList.remove(
-      'current-menu-item',
-      'current_page_item',
-      'current-menu-ancestor',
-      'current-menu-parent',
-      'current_page_parent',
-      'current_page_ancestor'
-    );
-  });
+	// Remove existing active classes from all menu items
+	document.querySelectorAll('.rstb-header .menu-item').forEach(li => {
+		li.classList.remove(
+			'current-menu-item',
+			'current_page_item',
+			'current-menu-ancestor',
+			'current-menu-parent',
+			'current_page_parent',
+			'current_page_ancestor'
+		);
+	});
 
-  // Add active classes to the matching menu item based on filename
-  document.querySelectorAll('.rstb-header .menu-item a').forEach(a => {
-    let href = a.getAttribute('href');
-    if (href && href !== '#' && !href.startsWith('tel:') && !href.startsWith('mailto:')) {
-      // Clean query parameters and hash fragments
-      let cleanHref = href.split('#')[0].split('?')[0];
-      
-      // Strip trailing slash
-      if (cleanHref.endsWith('/')) {
-        cleanHref = cleanHref.slice(0, -1);
-      }
-      
-      // Get the last segment of the path
-      let hrefPage = cleanHref.split('/').pop() || 'index.html';
-      
-      // If the clean URL points to the empty root or base it-solutions directory, map to index.html
-      if (hrefPage === '' || hrefPage === 'it-solutions') {
-        hrefPage = 'index.html';
-      }
-      
-      if (hrefPage.startsWith('/')) hrefPage = hrefPage.substring(1);
-      
-      if (hrefPage === page) {
-        let parent = a.parentElement;
-        if (parent && parent.tagName === 'LI') {
-          // Direct parent LI gets the exact active classes
-          parent.classList.add('current-menu-item', 'current_page_item');
-          
-          // Ancestors only get parent/ancestor classes, not active classes
-          let ancestor = parent.parentElement.closest('li');
-          while (ancestor) {
-            // Do not propagate active parent highlighting to structural "Pages" grouping items
-            let textEl = ancestor.querySelector('.menu-item-link > .menu-item-text') || ancestor.querySelector('.menu-item-text');
-            let isPages = textEl && textEl.textContent.trim().toLowerCase() === 'pages';
-            
-            if (!isPages) {
-              ancestor.classList.add('current-menu-ancestor', 'current-menu-parent', 'current_page_parent', 'current_page_ancestor');
-            }
-            ancestor = ancestor.parentElement.closest('li');
-          }
-        }
-      }
-    }
-  });
+	// Add active classes to the matching menu item based on filename
+	document.querySelectorAll('.rstb-header .menu-item a').forEach(a => {
+		let href = a.getAttribute('href');
+		if (href && href !== '#' && !href.startsWith('tel:') && !href.startsWith('mailto:')) {
+			// Clean query parameters and hash fragments
+			let cleanHref = href.split('#')[0].split('?')[0];
+
+			// Strip trailing slash
+			if (cleanHref.endsWith('/')) {
+				cleanHref = cleanHref.slice(0, -1);
+			}
+
+			// Get the last segment of the path
+			let hrefPage = cleanHref.split('/').pop() || 'index.html';
+
+			// If the clean URL points to the empty root or base it-solutions directory, map to index.html
+			if (hrefPage === '' || hrefPage === 'it-solutions') {
+				hrefPage = 'index.html';
+			}
+
+			if (hrefPage.startsWith('/')) hrefPage = hrefPage.substring(1);
+
+			if (hrefPage === page) {
+				let parent = a.parentElement;
+				if (parent && parent.tagName === 'LI') {
+					// Direct parent LI gets the exact active classes
+					parent.classList.add('current-menu-item', 'current_page_item');
+
+					// Ancestors only get parent/ancestor classes, not active classes
+					let ancestor = parent.parentElement.closest('li');
+					while (ancestor) {
+						// Do not propagate active parent highlighting to structural "Pages" grouping items
+						let textEl = ancestor.querySelector('.menu-item-link > .menu-item-text') || ancestor.querySelector('.menu-item-text');
+						let isPages = textEl && textEl.textContent.trim().toLowerCase() === 'pages';
+
+						if (!isPages) {
+							ancestor.classList.add('current-menu-ancestor', 'current-menu-parent', 'current_page_parent', 'current_page_ancestor');
+						}
+						ancestor = ancestor.parentElement.closest('li');
+					}
+				}
+			}
+		}
+	});
 })();
