@@ -1,299 +1,51 @@
-# META CONTENT
+## BASIC PLAN
 
-## Meta Title
+### Starter Website Package
 
-Contact LucideCore | Web Development & IT Solutions Company
+Perfect for startups and small businesses looking for a professional online presence.
 
-## Meta Description
+**₹9,999**
+/Starting
 
-Contact LucideCore for professional web development, software development, mobile app development, SaaS solutions, API integration, and digital transformation services.
-
-## Meta Keywords
-
-contact LucideCore, IT solutions company contact, web development company, software development services, mobile app development company, SaaS development agency, API integration services
-
----
-
-# PAGE BANNER SECTION
-
-## Small Heading
-
-Contact Us
-
-## Main Heading
-
-Let’s Build Your Next Digital Solution Together
-
-## Banner Description
-
-Have a project idea, startup, business requirement, or digital transformation goal? Contact LucideCore to discuss modern software solutions, web development, mobile applications, SaaS platforms, and innovative digital experiences tailored to your business needs.
+* Responsive Website Design
+* Mobile-Friendly Layout
+* Basic SEO Optimization
+* Contact Form Integration
+* Fast Delivery Support
+* Free Technical Assistance
 
 ---
 
-# CONTACT INTRO SECTION
+## BUSINESS PLAN
 
-## Section Title
+### Professional Business Solution
 
-Get in Touch With Our Team
+Ideal for growing businesses that need advanced features and better performance.
 
-## Intro Content
+**₹19,999**
+/Starting
 
-At LucideCore, we help startups, businesses, and enterprises transform ideas into scalable digital solutions. Whether you need a modern website, custom software, mobile application, SaaS platform, API integration, or ongoing technical support, our team is ready to assist you with innovative and future-ready technology solutions.
-
----
-
-# CONTACT INFORMATION SECTION
-
-## Section Title
-
-Contact Information
+* Custom Website Development
+* Responsive & Modern UI
+* Admin Panel Integration
+* SEO-Friendly Structure
+* Speed Optimization
+* Priority Support
 
 ---
 
-## Contact Card 1
+## PREMIUM PLAN
 
-### Title
+### Advanced Digital Solution
 
-Email Address
+Best for brands and enterprises requiring scalable and high-performance solutions.
 
-### Content
+**₹39,999**
+/Starting
 
-Reach out to us anytime for project discussions, support, or business inquiries.
-
-### Email
-
-[info@lucidecore.com](mailto:info@lucidecore.com)
-
----
-
-## Contact Card 2
-
-### Title
-
-Phone Number
-
-### Content
-
-Speak directly with our team regarding your project requirements and consultation.
-
-### Phone
-
-+91 XXXXX XXXXX
-
----
-
-## Contact Card 3
-
-### Title
-
-Business Hours
-
-### Content
-
-We are available to assist you during business working hours.
-
-### Timing
-
-Monday – Saturday
-10:00 AM – 7:00 PM
-
----
-
-## Contact Card 4
-
-### Title
-
-Location
-
-### Content
-
-Serving businesses globally with modern digital solutions and IT services.
-
-### Address
-
-India
-
----
-
-# CONTACT FORM SECTION
-
-## Section Title
-
-Send Us a Message
-
-## Form Intro Text
-
-Fill out the contact form below and our team will get back to you as soon as possible to discuss your project, business requirements, or digital solution needs.
-
----
-
-# FORM FIELDS
-
-* Full Name
-* Email Address
-* Phone Number
-* Company Name
-* Service Required
-* Project Budget
-* Message
-
----
-
-# FORM BUTTON
-
-## Button Text
-
-Send Message
-
----
-
-# SERVICES ENQUIRY SECTION
-
-## Section Title
-
-Services We Can Help You With
-
-### Services List
-
-* Web Development
-* Software Development
-* Mobile App Development
-* SaaS Product Development
-* API Development & Integration
-* WordPress Development
-* Shopify Development
-* UI/UX Design
-* SEO Optimization
-* Technical Support & Maintenance
-
----
-
-# WHY CONTACT US SECTION
-
-## Section Title
-
-Why Businesses Choose LucideCore
-
-### Point 1
-
-Modern Technology Expertise
-
-### Point 2
-
-Scalable & Secure Solutions
-
-### Point 3
-
-SEO & Performance Optimized Development
-
-### Point 4
-
-Custom Business-Focused Solutions
-
-### Point 5
-
-Dedicated Technical Support
-
-### Point 6
-
-Future-Ready Digital Products
-
----
-
-# BUSINESS CONSULTATION SECTION
-
-## Section Title
-
-Free Project Consultation
-
-## Content
-
-We provide strategic consultation to help businesses choose the right technologies, development strategies, and scalable solutions for their projects. Whether you are launching a startup, upgrading an existing platform, or building a custom application, LucideCore can help you plan and execute your digital vision efficiently.
-
----
-
-# FAQ SECTION
-
-## Section Title
-
-Frequently Asked Questions
-
----
-
-### Q1
-
-How can I contact LucideCore?
-
-### A1
-
-You can contact us through email, phone, WhatsApp, or the contact form available on this page.
-
----
-
-### Q2
-
-What services does LucideCore provide?
-
-### A2
-
-We provide web development, software development, mobile app development, SaaS solutions, API integrations, WordPress development, Shopify development, and digital transformation services.
-
----
-
-### Q3
-
-Do you provide custom development solutions?
-
-### A3
-
-Yes, all our solutions are customized according to business requirements, goals, and scalability needs.
-
----
-
-### Q4
-
-Do you work with international clients?
-
-### A4
-
-Yes, we work with startups, businesses, and enterprises globally across multiple industries.
-
----
-
-### Q5
-
-Do you provide ongoing support and maintenance?
-
-### A5
-
-Yes, we offer long-term maintenance, optimization, updates, and technical support services.
-
----
-
-# GOOGLE MAP SECTION
-
-## Section Title
-
-Find Us
-
-## Map Intro Text
-
-Connect with LucideCore and explore how modern technology solutions can help grow your business.
-
----
-
-# CALL TO ACTION SECTION
-
-## CTA Heading
-
-Ready to Start Your Project?
-
-## CTA Description
-
-Partner with LucideCore to create modern websites, scalable software, mobile applications, and innovative digital products designed for long-term growth and success.
-
-## CTA Buttons
-
-* Start Your Project
-* Schedule a Consultation
-
+* Custom Web Application
+* E-commerce Functionality
+* Premium UI/UX Design
+* Advanced Integrations
+* Performance & Security Optimization
+* Dedicated Technical Support
