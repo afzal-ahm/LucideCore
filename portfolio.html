@@ -282,6 +282,194 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
                         /* Active */
                     /* End Dynamic Mobile Sidebar Menu Colors */
 
+		.portfolio-showcase {
+			--portfolio-surface: #22292a;
+			--portfolio-border: rgba(255, 255, 255, 0.08);
+			--portfolio-text: #f3f0ea;
+			--portfolio-muted: rgba(243, 240, 234, 0.78);
+			--portfolio-chip: rgba(255, 255, 255, 0.04);
+			--portfolio-shadow: 0 18px 44px rgba(0, 0, 0, 0.2);
+			max-width: 1460px;
+			margin: 0 auto;
+			padding: 10px 0 0;
+		}
+
+		.portfolio-card-grid {
+			display: grid;
+			grid-template-columns: repeat(3, minmax(0, 1fr));
+			gap: 28px;
+			align-items: stretch;
+		}
+
+		.portfolio-card {
+			display: flex;
+			flex-direction: column;
+			height: 100%;
+			background: var(--portfolio-surface);
+			border: 1px solid var(--portfolio-border);
+			border-radius: 30px;
+			overflow: hidden;
+			box-shadow: var(--portfolio-shadow);
+			transition: transform 0.35s ease, border-color 0.35s ease, box-shadow 0.35s ease;
+		}
+
+		.portfolio-card:hover {
+			transform: translateY(-6px);
+			border-color: rgba(255, 255, 255, 0.14);
+			box-shadow: 0 24px 54px rgba(0, 0, 0, 0.26);
+		}
+
+		.portfolio-card-media {
+			padding: 0;
+		}
+
+		.portfolio-preview-frame {
+			position: relative;
+			overflow: hidden;
+			border-radius: 30px 30px 0 0;
+			border: 0;
+			background: #111717;
+			aspect-ratio: 0.9 / 1;
+			min-height: 540px;
+		}
+
+		.portfolio-preview-frame img {
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+			display: block;
+		}
+
+		.portfolio-card-body {
+			position: relative;
+			display: flex;
+			flex-direction: column;
+			gap: 14px;
+			margin: -220px 0 0;
+			padding: 34px 28px 30px;
+			border-radius: 0 0 30px 30px;
+			border: 0;
+			background: linear-gradient(180deg, rgba(126, 116, 105, 0.18) 0%, rgba(58, 50, 45, 0.62) 45%, rgba(33, 34, 35, 0.9) 100%);
+			backdrop-filter: blur(32px) saturate(155%);
+			-webkit-backdrop-filter: blur(32px) saturate(155%);
+			box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.08);
+			color: var(--portfolio-text);
+			z-index: 2;
+		}
+
+		.portfolio-card-title {
+			margin: 0;
+			font-family: "Golos Text", sans-serif;
+			font-size: clamp(28px, 2vw, 36px);
+			line-height: 1.06;
+			letter-spacing: -0.025em;
+			color: white !important;
+			font-weight: 700;
+		}
+
+		.portfolio-card-subtitle {
+			margin: -2px 0 0;
+			font-family: "Golos Text", sans-serif;
+			font-size: 0.98rem;
+			line-height: 1.45;
+			color: rgba(255, 255, 255, 0.82);
+			font-weight: 500;
+		}
+
+		.portfolio-card-tags {
+			display: flex;
+			flex-wrap: wrap;
+			gap: 12px;
+			margin-top: 10px;
+		}
+
+		.portfolio-card-tag {
+			display: inline-flex;
+			align-items: center;
+			justify-content: center;
+			min-height: 44px;
+			padding: 10px 21px;
+			border-radius: 999px;
+			border: 1px solid rgba(255, 255, 255, 0.18);
+			background: rgba(255, 255, 255, 0.06);
+			font-family: "Golos Text", sans-serif;
+			font-size: 0.94rem;
+			font-weight: 600;
+			letter-spacing: 0.01em;
+			color: var(--portfolio-text);
+		}
+
+		.portfolio-card-link {
+			display: inline-flex;
+			align-items: center;
+			gap: 10px;
+			margin-top: 8px;
+			font-family: "Golos Text", sans-serif;
+			font-size: 1.06rem;
+			font-weight: 600;
+			color: #ffffff;
+		}
+
+		.portfolio-card-link:hover {
+			color: #ffffff;
+		}
+
+		.portfolio-card-link svg {
+			width: 18px;
+			height: 18px;
+			fill: currentColor;
+			transition: transform 0.3s ease;
+		}
+
+		.portfolio-card:hover .portfolio-card-link svg {
+			transform: translate(4px, -2px);
+		}
+
+		.portfolio-showcase-footer {
+			display: flex;
+			justify-content: center;
+			margin-top: 38px;
+		}
+
+		@media (max-width: 1200px) {
+			.portfolio-card-grid {
+				grid-template-columns: repeat(2, minmax(0, 1fr));
+			}
+
+			.portfolio-preview-frame {
+				min-height: 500px;
+			}
+		}
+
+		@media (max-width: 767px) {
+			.portfolio-card-grid {
+				grid-template-columns: 1fr;
+				gap: 22px;
+			}
+
+			.portfolio-preview-frame {
+				min-height: 480px;
+			}
+
+			.portfolio-card-body {
+				margin: -190px 0 0;
+				padding: 24px 22px 26px;
+			}
+
+			.portfolio-card-title {
+				font-size: 2rem;
+			}
+
+			.portfolio-card-tag {
+				min-height: 42px;
+				padding: 9px 18px;
+			}
+
+			.portfolio-showcase-footer {
+				margin-top: 30px;
+			}
+		}
+
             </style>
 
     <script src="js/components.js" defer></script>
@@ -340,159 +528,130 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
 		<div class="elementor-element elementor-element-6fef44c e-con-full e-flex e-con e-child" data-id="6fef44c" data-element_type="container" data-e-type="container">
 				<div class="elementor-element elementor-element-3a56895 elementor-widget-tablet_extra__width-initial elementor-widget-mobile__width-inherit gsap-move-no rs-tween_max_btn-no elementor-widget elementor-widget-ajax-post-load" data-id="3a56895" data-element_type="widget" data-e-type="widget" data-widget_type="ajax-post-load.default">
 				<div class="elementor-widget-container">
-					                    <div id="rs-unique-slider-id_3a56895" class="rsaddon-unique-slider rs-ajax-post-load-parent">
-
-                
-                <div class="rs-ajax-post-load rs-addon-grid style-1">
-        
-            <div class="layout-cls row" data-settings="{&quot;style&quot;:&quot;style-1&quot;,&quot;layout&quot;:&quot;grid&quot;,&quot;post_type&quot;:&quot;portfolios&quot;,&quot;show_category&quot;:&quot;&quot;,&quot;category&quot;:&quot;technology, ai-solution, it-solution&quot;,&quot;order&quot;:&quot;DESC&quot;,&quot;per_page&quot;:3,&quot;initial_load_count&quot;:6,&quot;paged&quot;:1,&quot;unique_id&quot;:&quot;id_3a56895&quot;,&quot;post_title_tag&quot;:&quot;h4&quot;,&quot;show_excerpt&quot;:&quot;yes&quot;,&quot;excerpt_expand&quot;:&quot;yes&quot;,&quot;excerpt_word&quot;:10,&quot;grid_cols&quot;:&quot;col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12&quot;,&quot;show_read_more&quot;:&quot;yes&quot;,&quot;read_more_text&quot;:&quot;Read More&quot;,&quot;read_more_icon&quot;:{&quot;value&quot;:{&quot;id&quot;:&quot;28&quot;,&quot;url&quot;:&quot;#">
-                <div class="grid-item col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 active" >
-    <div class="post-wrapper">
-                    <div class="post-img">
-                <img loading="lazy" decoding="async" width="768" height="889" src="images/project_06.jpg" class="attachment-full size-full" alt="project_06" srcset="images/project_06.jpg 768w, images/project_06.jpg 259w" sizes="(max-width: 768px) 100vw, 768px" />            </div>
-            <div class="post-content">
-                                <h4 class="post-title"><a href="portfolio.html">Enterprise Business Website</a></h4>
-                <div class="post-excerpt expand-effect">A modern, responsive, and SEO-optimized corporate website designed for a growing business brand.</div>                    <div class="btn-part">
-                        <a class="anim-dir-angle" href="portfolio.html">
-                            Read More 
-                                <em>
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 17"><path d="M13.338 5.04405L1.88204 16.5L0 14.618L11.4546 3.16201H1.35896V0.5H16V15.141H13.338V5.04405Z"></path></svg>                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 17"><path d="M13.338 5.04405L1.88204 16.5L0 14.618L11.4546 3.16201H1.35896V0.5H16V15.141H13.338V5.04405Z"></path></svg>                                </em>
-                                                    </a>
-                    </div>
-                				            </div>
-            </div>
-</div><div class="grid-item col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 " >
-    <div class="post-wrapper">
-                    <div class="post-img">
-                <img loading="lazy" decoding="async" width="768" height="889" src="images/project_05.jpg" class="attachment-full size-full" alt="project_05" srcset="images/project_05.jpg 768w, images/project_05.jpg 259w" sizes="(max-width: 768px) 100vw, 768px" />            </div>
-            <div class="post-content">
-                                <h4 class="post-title"><a href="portfolio.html">Custom CRM Management System</a></h4>
-                <div class="post-excerpt expand-effect">A scalable CRM platform developed to streamline business workflows, customer management, and reporting.</div>                    <div class="btn-part">
-                        <a class="anim-dir-angle" href="portfolio.html">
-                            Read More 
-                                <em>
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 17"><path d="M13.338 5.04405L1.88204 16.5L0 14.618L11.4546 3.16201H1.35896V0.5H16V15.141H13.338V5.04405Z"></path></svg>                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 17"><path d="M13.338 5.04405L1.88204 16.5L0 14.618L11.4546 3.16201H1.35896V0.5H16V15.141H13.338V5.04405Z"></path></svg>                                </em>
-                                                    </a>
-                    </div>
-                				            </div>
-            </div>
-</div><div class="grid-item col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 " >
-    <div class="post-wrapper">
-                    <div class="post-img">
-                <img loading="lazy" decoding="async" width="768" height="889" src="images/project_04.jpg" class="attachment-full size-full" alt="project_04" srcset="images/project_04.jpg 768w, images/project_04.jpg 259w" sizes="(max-width: 768px) 100vw, 768px" />            </div>
-            <div class="post-content">
-                                <h4 class="post-title"><a href="portfolio.html">Modern eCommerce Platform</a></h4>
-                <div class="post-excerpt expand-effect">A high-converting eCommerce store built for seamless shopping experiences and optimized performance.</div>                    <div class="btn-part">
-                        <a class="anim-dir-angle" href="portfolio.html">
-                            Read More 
-                                <em>
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 17"><path d="M13.338 5.04405L1.88204 16.5L0 14.618L11.4546 3.16201H1.35896V0.5H16V15.141H13.338V5.04405Z"></path></svg>                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 17"><path d="M13.338 5.04405L1.88204 16.5L0 14.618L11.4546 3.16201H1.35896V0.5H16V15.141H13.338V5.04405Z"></path></svg>                                </em>
-                                                    </a>
-                    </div>
-                				            </div>
-            </div>
-</div><div class="grid-item col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 " >
-    <div class="post-wrapper">
-                    <div class="post-img">
-                <img loading="lazy" decoding="async" width="768" height="889" src="images/project_03.jpg" class="attachment-full size-full" alt="project_03" srcset="images/project_03.jpg 768w, images/project_03.jpg 259w" sizes="(max-width: 768px) 100vw, 768px" />            </div>
-            <div class="post-content">
-                                <h4 class="post-title"><a href="portfolio.html">Cross-Platform Mobile Application</a></h4>
-                <div class="post-excerpt expand-effect">A feature-rich mobile application designed for Android and iOS platforms with real-time functionality.</div>                    <div class="btn-part">
-                        <a class="anim-dir-angle" href="portfolio.html">
-                            Read More 
-                                <em>
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 17"><path d="M13.338 5.04405L1.88204 16.5L0 14.618L11.4546 3.16201H1.35896V0.5H16V15.141H13.338V5.04405Z"></path></svg>                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 17"><path d="M13.338 5.04405L1.88204 16.5L0 14.618L11.4546 3.16201H1.35896V0.5H16V15.141H13.338V5.04405Z"></path></svg>                                </em>
-                                                    </a>
-                    </div>
-                				            </div>
-            </div>
-</div><div class="grid-item col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 " >
-    <div class="post-wrapper">
-                    <div class="post-img">
-                <img loading="lazy" decoding="async" width="768" height="889" src="images/project_02.jpg" class="attachment-full size-full" alt="project_02" srcset="images/project_02.jpg 768w, images/project_02.jpg 259w" sizes="(max-width: 768px) 100vw, 768px" />            </div>
-            <div class="post-content">
-                                <h4 class="post-title"><a href="portfolio.html">SaaS Web Application</a></h4>
-                <div class="post-excerpt expand-effect">A scalable SaaS platform designed to support subscription-based services, user dashboards, and analytics.</div>                    <div class="btn-part">
-                        <a class="anim-dir-angle" href="portfolio.html">
-                            Read More 
-                                <em>
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 17"><path d="M13.338 5.04405L1.88204 16.5L0 14.618L11.4546 3.16201H1.35896V0.5H16V15.141H13.338V5.04405Z"></path></svg>                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 17"><path d="M13.338 5.04405L1.88204 16.5L0 14.618L11.4546 3.16201H1.35896V0.5H16V15.141H13.338V5.04405Z"></path></svg>                                </em>
-                                                    </a>
-                    </div>
-                				            </div>
-            </div>
-</div><div class="grid-item col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 " >
-    <div class="post-wrapper">
-                    <div class="post-img">
-                <img loading="lazy" decoding="async" width="768" height="889" src="images/project_01.jpg" class="attachment-full size-full" alt="project_01" srcset="images/project_01.jpg 768w, images/project_01.jpg 259w" sizes="(max-width: 768px) 100vw, 768px" />            </div>
-            <div class="post-content">
-                                <h4 class="post-title"><a href="/software-development.html">WordPress Business Platform</a></h4>
-                <div class="post-excerpt expand-effect">A professional WordPress website developed for business branding, content management, and SEO.</div>                    <div class="btn-part">
-                        <a class="anim-dir-angle" href="/software-development.html">
-                            Read More 
-                                <em>
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 17"><path d="M13.338 5.04405L1.88204 16.5L0 14.618L11.4546 3.16201H1.35896V0.5H16V15.141H13.338V5.04405Z"></path></svg>                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 17"><path d="M13.338 5.04405L1.88204 16.5L0 14.618L11.4546 3.16201H1.35896V0.5H16V15.141H13.338V5.04405Z"></path></svg>                                </em>
-                                                    </a>
-                    </div>
-                				            </div>
-            </div>
-</div>            </div><!-- .row/.swiper-wrapper -->
-
-            <div class="button-wrapper ">
-                <button
-                    class="rs-loadmore-btn"
-                    data-category="technology, ai-solution, it-solution">
-                    Load More<svg aria-hidden="true" class="e-font-icon-svg e-fas-spinner" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M304 48c0 26.51-21.49 48-48 48s-48-21.49-48-48 21.49-48 48-48 48 21.49 48 48zm-48 368c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48-21.49-48-48-48zm208-208c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48-21.49-48-48-48zM96 256c0-26.51-21.49-48-48-48S0 229.49 0 256s21.49 48 48 48 48-21.49 48-48zm12.922 99.078c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48c0-26.509-21.491-48-48-48zm294.156 0c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48c0-26.509-21.49-48-48-48zM108.922 60.922c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48-21.491-48-48-48z"></path></svg>                </button>
-            </div>
-        </div><!-- .rs-ajax-post-load -->
-
-            
-        </div><!-- .rsaddon-unique-slider -->
-
-                    <script>
-                jQuery(document).ready(function($) {
-                    const $container = $('#rs-unique-slider-id_3a56895 .rs-ajax-post-load');
-
-                    function hoverHandel() {
-                        let item = $container.find('.grid-item').not('[data-init]');
-                        item.each(function () {
-                            let desc = $(this).find('.post-excerpt.expand-effect');
-                            let descHeight = desc.innerHeight();
-                            desc.css({
-                                '--desc-height': descHeight + 'px',
-                                'height': 0
-                            });
-
-                            if ($(this).parent('.layout-cls.row').length) {
-                                $(this).on('mouseenter.rsHover', function () {
-                                    $(this)
-                                        .addClass('active')
-                                        .siblings('.grid-item')
-                                        .removeClass('active');
-                                });
-                            }
-                            if ($(this).parent('.layout-cls.swiper-wrapper').length) {
-                                $(this).on('mouseenter.rsHover', function () {
-                                    $(this)
-                                        .addClass('swiper-slide-active')
-                                        .siblings('.grid-item')
-                                        .removeClass('swiper-slide-active');
-                                });
-                            }
-                            $(this).attr('data-init', '1');
-                        });
-                    }
-                    hoverHandel();
-
-                    $(document).on('rsAjaxPostLoadFilter_id_3a56895', function () {
-                        hoverHandel();
-                    });
-                    $(document).on('rsAjaxPostLoadMoreBtn_id_3a56895', function () {
-                        hoverHandel();
-                    });
-                });
-            </script>
-        				</div>
+					<div class="portfolio-showcase">
+						<div class="portfolio-card-grid">
+							<article class="portfolio-card">
+								<div class="portfolio-card-media">
+									<div class="portfolio-preview-frame">
+										<img loading="lazy" decoding="async" src="images/project_06.jpg" alt="Orbit Auto project preview" />
+									</div>
+								</div>
+								<div class="portfolio-card-body">
+									<h3 class="portfolio-card-title">Orbit Auto</h3>
+									<p class="portfolio-card-subtitle">(Fleet Care &amp; Warranty Dashboard)</p>
+									<div class="portfolio-card-tags">
+										<span class="portfolio-card-tag">B2B</span>
+										<span class="portfolio-card-tag">Web Application</span>
+									</div>
+									<a class="portfolio-card-link" href="portfolio.html">View Project
+										<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 17" aria-hidden="true"><path d="M13.338 5.04405L1.88204 16.5L0 14.618L11.4546 3.16201H1.35896V0.5H16V15.141H13.338V5.04405Z"></path></svg>
+									</a>
+								</div>
+							</article>
+							<article class="portfolio-card">
+								<div class="portfolio-card-media">
+									<div class="portfolio-preview-frame">
+										<img loading="lazy" decoding="async" src="images/project_05.jpg" alt="Guidely project preview" />
+									</div>
+								</div>
+								<div class="portfolio-card-body">
+									<h3 class="portfolio-card-title">Guidely</h3>
+									<p class="portfolio-card-subtitle">(Career Mentorship Mobile App)</p>
+									<div class="portfolio-card-tags">
+										<span class="portfolio-card-tag">B2C</span>
+										<span class="portfolio-card-tag">Mobile Application</span>
+									</div>
+									<a class="portfolio-card-link" href="portfolio.html">View Project
+										<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 17" aria-hidden="true"><path d="M13.338 5.04405L1.88204 16.5L0 14.618L11.4546 3.16201H1.35896V0.5H16V15.141H13.338V5.04405Z"></path></svg>
+									</a>
+								</div>
+							</article>
+							<article class="portfolio-card">
+								<div class="portfolio-card-media">
+									<div class="portfolio-preview-frame">
+										<img loading="lazy" decoding="async" src="images/project_04.jpg" alt="HeartMatch project preview" />
+									</div>
+								</div>
+								<div class="portfolio-card-body">
+									<h3 class="portfolio-card-title">HeartMatch</h3>
+									<p class="portfolio-card-subtitle">(Modern Matchmaking Application)</p>
+									<div class="portfolio-card-tags">
+										<span class="portfolio-card-tag">B2C</span>
+										<span class="portfolio-card-tag">Mobile Application</span>
+									</div>
+									<a class="portfolio-card-link" href="portfolio.html">View Project
+										<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 17" aria-hidden="true"><path d="M13.338 5.04405L1.88204 16.5L0 14.618L11.4546 3.16201H1.35896V0.5H16V15.141H13.338V5.04405Z"></path></svg>
+									</a>
+								</div>
+							</article>
+							<article class="portfolio-card">
+								<div class="portfolio-card-media">
+									<div class="portfolio-preview-frame">
+										<img loading="lazy" decoding="async" src="images/project_03.jpg" alt="Nova Commerce project preview" />
+									</div>
+								</div>
+								<div class="portfolio-card-body">
+									<h3 class="portfolio-card-title">Nova Commerce</h3>
+									<p class="portfolio-card-subtitle">(Retail Operations Platform)</p>
+									<div class="portfolio-card-tags">
+										<span class="portfolio-card-tag">B2B</span>
+										<span class="portfolio-card-tag">Web Application</span>
+									</div>
+									<a class="portfolio-card-link" href="portfolio.html">View Project
+										<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 17" aria-hidden="true"><path d="M13.338 5.04405L1.88204 16.5L0 14.618L11.4546 3.16201H1.35896V0.5H16V15.141H13.338V5.04405Z"></path></svg>
+									</a>
+								</div>
+							</article>
+							<article class="portfolio-card">
+								<div class="portfolio-card-media">
+									<div class="portfolio-preview-frame">
+										<img loading="lazy" decoding="async" src="images/project_02.jpg" alt="CareSync project preview" />
+									</div>
+								</div>
+								<div class="portfolio-card-body">
+									<h3 class="portfolio-card-title">CareSync</h3>
+									<p class="portfolio-card-subtitle">(Patient Engagement Portal)</p>
+									<div class="portfolio-card-tags">
+										<span class="portfolio-card-tag">B2C</span>
+										<span class="portfolio-card-tag">Web Application</span>
+									</div>
+									<a class="portfolio-card-link" href="portfolio.html">View Project
+										<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 17" aria-hidden="true"><path d="M13.338 5.04405L1.88204 16.5L0 14.618L11.4546 3.16201H1.35896V0.5H16V15.141H13.338V5.04405Z"></path></svg>
+									</a>
+								</div>
+							</article>
+							<article class="portfolio-card">
+								<div class="portfolio-card-media">
+									<div class="portfolio-preview-frame">
+										<img loading="lazy" decoding="async" src="images/project_01.jpg" alt="EduFlow project preview" />
+									</div>
+								</div>
+								<div class="portfolio-card-body">
+									<h3 class="portfolio-card-title">EduFlow</h3>
+									<p class="portfolio-card-subtitle">(Learning Experience Platform)</p>
+									<div class="portfolio-card-tags">
+										<span class="portfolio-card-tag">B2C</span>
+										<span class="portfolio-card-tag">Mobile Application</span>
+									</div>
+									<a class="portfolio-card-link" href="portfolio.html">View Project
+										<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 17" aria-hidden="true"><path d="M13.338 5.04405L1.88204 16.5L0 14.618L11.4546 3.16201H1.35896V0.5H16V15.141H13.338V5.04405Z"></path></svg>
+									</a>
+								</div>
+							</article>
+						</div>
+						<div class="portfolio-showcase-footer">
+							<div class="rs-button style1 unique-46231">
+								<a class="rs-btn anim-dir-angle" href="portfolio.html" style="background: #7B2CFF;">
+									<span class="rs-btn-active"><span>View all Projects</span> </span>
+									<em>
+										<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 17"><path d="M13.338 5.04405L1.88204 16.5L0 14.618L11.4546 3.16201H1.35896V0.5H16V15.141H13.338V5.04405Z"></path></svg>
+										<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 17"><path d="M13.338 5.04405L1.88204 16.5L0 14.618L11.4546 3.16201H1.35896V0.5H16V15.141H13.338V5.04405Z"></path></svg>
+									</em>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
 				</div>
 				</div>
 					</div>
