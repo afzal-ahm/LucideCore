@@ -1054,7 +1054,7 @@
     }
 
     .elementor-20 .elementor-element.elementor-element-7e981a4a .rstb-site-logo img {
-        height: 34px;
+        height: 75px;
     }
 
     .elementor-20 .elementor-element.elementor-element-619b14e4>.rstb-nav-menu>.primary-menu>.menu-item {
@@ -1183,7 +1183,8 @@
     }
 
     .elementor-20 .elementor-element.elementor-element-619b14e4 .rstb-nav-menu .mobile-panel-logo img {
-        height: 35px;
+        height: 110px;
+        border-radius: 10px;
     }
 
     .elementor-20 .elementor-element.elementor-element-2626eced {
