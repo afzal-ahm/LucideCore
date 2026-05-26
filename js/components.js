@@ -298,7 +298,7 @@ const LUCIDECORE_HEADER = `
 													</svg>
 												</button>
 												<div class="mobile-panel-logo"><img
-														src="images/logo-without-bg-crop.png"
+														src="images/logo-crop-2.jpeg"
 														title="logo" alt="logo" loading="lazy" /></div>
 												<ul id="menu-mobile-menu" class="mobile-menu has-vertical-divider">
 													<li id="menu-item-4916"
@@ -418,328 +418,6 @@ const LUCIDECORE_HEADER = `
 														</g>
 													</svg> </button>
 											</form>
-										</div>
-									</div>
-								</div>
-								<div class="elementor-element elementor-element-29d8e3c elementor-widget-mobile__width-initial elementor-hidden-tablet elementor-hidden-mobile gsap-move-no rs-tween_max_btn-no elementor-widget elementor-widget-rstb-offcanvas"
-									data-id="29d8e3c" data-element_type="widget" data-e-type="widget"
-									data-widget_type="rstb-offcanvas.default">
-									<div class="rstb-offcanvas-wrap">
-										<div class="offcanvas-toggle-wrap">
-											<button class="offcanvas-toggle">
-												<span class="toggle-btn-icon">
-													<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 18"
-														fill="none">
-														<path
-															d="M6 1.8001C6 1.13738 6.53728 0.600098 7.2 0.600098H22.8C23.4627 0.600098 24 1.13738 24 1.8001C24 2.46282 23.4627 3.0001 22.8 3.0001H7.2C6.53728 3.0001 6 2.46277 6 1.8001ZM22.8 7.8001H1.2C0.537281 7.8001 0 8.33743 0 9.0001C0 9.66282 0.537281 10.2001 1.2 10.2001H22.8C23.4627 10.2001 24 9.66282 24 9.0001C24 8.33743 23.4627 7.8001 22.8 7.8001ZM22.8 15.0001H12C11.3373 15.0001 10.8 15.5374 10.8 16.2001C10.8 16.8628 11.3373 17.4001 12 17.4001H22.8C23.4627 17.4001 24 16.8628 24 16.2001C24 15.5374 23.4627 15.0001 22.8 15.0001Z">
-														</path>
-													</svg> </span>
-											</button>
-										</div>
-										<div class="rstb-offcanvas-panel position-right">
-											<div class="offcanvas-overly"></div>
-											<div class="offcanvas-container" style=width:400px>
-												<button class="offcanvas-close">
-													<svg xmlns="http://www.w3.org/2000/svg"
-														xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0"
-														viewBox="0 0 512 512" style="enable-background:new 0 0 512 512"
-														xml:space="preserve" class="">
-														<g>
-															<g data-name="02 User">
-																<path
-																	d="M25 512a25 25 0 0 1-17.68-42.68l462-462a25 25 0 0 1 35.36 35.36l-462 462A24.93 24.93 0 0 1 25 512z"
-																	opacity="1"></path>
-																<path
-																	d="M487 512a24.93 24.93 0 0 1-17.68-7.32l-462-462A25 25 0 0 1 42.68 7.32l462 462A25 25 0 0 1 487 512z"
-																	opacity="1"></path>
-															</g>
-														</g>
-													</svg> </button>
-												<div data-elementor-type="wp-post" data-elementor-id="260"
-													class="elementor elementor-260">
-													<div class="elementor-element elementor-element-f35194e e-con-full e-flex e-con e-parent"
-														data-id="f35194e" data-element_type="container"
-														data-e-type="container"
-														data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-														<div class="elementor-element elementor-element-197f5a0f gsap-move-no rs-tween_max_btn-no elementor-widget elementor-widget-rstb-site-logo"
-															data-id="197f5a0f" data-element_type="widget"
-															data-e-type="widget"
-															data-widget_type="rstb-site-logo.default">
-															<div class="rstb-site-logo">
-																<a href="/index.html"><img
-																		src="images/logo-without-bg-crop.png"
-																		alt="LucideCore"></a>
-															</div>
-														</div>
-														<div class="elementor-element elementor-element-1d793780 gsap-move-no rs-tween_max_btn-no elementor-widget elementor-widget-rs-heading"
-															data-id="1d793780" data-element_type="widget"
-															data-e-type="widget" data-widget_type="rs-heading.default">
-															<div class="elementor-widget-container">
-
-																<div class="prelements-heading default   animate-  ">
-																	<div class="title-inner">
-																	</div>
-																	<div class="descripti">
-																		<p>We are passionate about creating modern, scalable, and user-friendly digital experiences using the latest technologies.</p>
-																	</div>
-																</div>
-															</div>
-														</div>
-														<div class="elementor-element elementor-element-41ed0909 gallery-spacing-custom gsap-move-no rs-tween_max_btn-no elementor-widget elementor-widget-image-gallery"
-															data-id="41ed0909" data-element_type="widget"
-															data-e-type="widget"
-															data-widget_type="image-gallery.default">
-															<div class="elementor-image-gallery">
-																<div id='gallery-1'
-																	class='gallery galleryid-13 gallery-columns-3 gallery-size-thumbnail'>
-																	<figure class='gallery-item'>
-																		<div class='gallery-icon landscape'>
-																			<a data-elementor-open-lightbox="yes"
-																				data-elementor-lightbox-slideshow="41ed0909"
-																				data-elementor-lightbox-title="blog_06"
-																				data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MTEzMSwidXJsIjoiaHR0cHM6XC9cL3RlY2h6ZW53cC5yc3RoZW1lLmNvbVwvaXQtc29sdXRpb25zXC93cC1jb250ZW50XC91cGxvYWRzXC9zaXRlc1wvMlwvMjAyNlwvMDRcL2Jsb2dfMDYuanBnIiwic2xpZGVzaG93IjoiNDFlZDA5MDkifQ%3D%3D"
-																				href='../images/blog_06.jpg'><img
-																					width="150" height="150"
-																					src="../images/blog_06.jpg"
-																					class="attachment-thumbnail size-thumbnail"
-																					alt="" decoding="async"
-																					srcset="../images/blog_06.jpg 150w, ../images/blog_06-500x500.jpg 500w"
-																					sizes="(max-width: 150px) 100vw, 150px" /></a>
-																		</div>
-																	</figure>
-																	<figure class='gallery-item'>
-																		<div class='gallery-icon landscape'>
-																			<a data-elementor-open-lightbox="yes"
-																				data-elementor-lightbox-slideshow="41ed0909"
-																				data-elementor-lightbox-title="blog_05"
-																				data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MTEyOCwidXJsIjoiaHR0cHM6XC9cL3RlY2h6ZW53cC5yc3RoZW1lLmNvbVwvaXQtc29sdXRpb25zXC93cC1jb250ZW50XC91cGxvYWRzXC9zaXRlc1wvMlwvMjAyNlwvMDRcL2Jsb2dfMDUuanBnIiwic2xpZGVzaG93IjoiNDFlZDA5MDkifQ%3D%3D"
-																				href='../images/blog_05.jpg'><img
-																					width="150" height="150"
-																					src="../images/blog_05.jpg"
-																					class="attachment-thumbnail size-thumbnail"
-																					alt="" decoding="async"
-																					srcset="../images/blog_05.jpg 150w, ../images/blog_05-500x500.jpg 500w"
-																					sizes="(max-width: 150px) 100vw, 150px" /></a>
-																		</div>
-																	</figure>
-																	<figure class='gallery-item'>
-																		<div class='gallery-icon landscape'>
-																			<a data-elementor-open-lightbox="yes"
-																				data-elementor-lightbox-slideshow="41ed0909"
-																				data-elementor-lightbox-title="blog_04"
-																				data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MTEyMywidXJsIjoiaHR0cHM6XC9cL3RlY2h6ZW53cC5yc3RoZW1lLmNvbVwvaXQtc29sdXRpb25zXC93cC1jb250ZW50XC91cGxvYWRzXC9zaXRlc1wvMlwvMjAyNlwvMDRcL2Jsb2dfMDQuanBnIiwic2xpZGVzaG93IjoiNDFlZDA5MDkifQ%3D%3D"
-																				href='../images/blog_04.jpg'><img
-																					width="150" height="150"
-																					src="../images/blog_04.jpg"
-																					class="attachment-thumbnail size-thumbnail"
-																					alt="" decoding="async"
-																					srcset="../images/blog_04.jpg 150w, ../images/blog_04-500x500.jpg 500w"
-																					sizes="(max-width: 150px) 100vw, 150px" /></a>
-																		</div>
-																	</figure>
-																	<figure class='gallery-item'>
-																		<div class='gallery-icon landscape'>
-																			<a data-elementor-open-lightbox="yes"
-																				data-elementor-lightbox-slideshow="41ed0909"
-																				data-elementor-lightbox-title="blog_03"
-																				data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MTEyMCwidXJsIjoiaHR0cHM6XC9cL3RlY2h6ZW53cC5yc3RoZW1lLmNvbVwvaXQtc29sdXRpb25zXC93cC1jb250ZW50XC91cGxvYWRzXC9zaXRlc1wvMlwvMjAyNlwvMDRcL2Jsb2dfMDMuanBnIiwic2xpZGVzaG93IjoiNDFlZDA5MDkifQ%3D%3D"
-																				href='../images/blog_03.jpg'><img
-																					loading="lazy" width="150"
-																					height="150"
-																					src="../images/blog_03.jpg"
-																					class="attachment-thumbnail size-thumbnail"
-																					alt="" decoding="async"
-																					srcset="../images/blog_03.jpg 150w, ../images/blog_03-500x500.jpg 500w"
-																					sizes="(max-width: 150px) 100vw, 150px" /></a>
-																		</div>
-																	</figure>
-																	<figure class='gallery-item'>
-																		<div class='gallery-icon landscape'>
-																			<a data-elementor-open-lightbox="yes"
-																				data-elementor-lightbox-slideshow="41ed0909"
-																				data-elementor-lightbox-title="blog_02"
-																				data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MTExNiwidXJsIjoiaHR0cHM6XC9cL3RlY2h6ZW53cC5yc3RoZW1lLmNvbVwvaXQtc29sdXRpb25zXC93cC1jb250ZW50XC91cGxvYWRzXC9zaXRlc1wvMlwvMjAyNlwvMDRcL2Jsb2dfMDIuanBnIiwic2xpZGVzaG93IjoiNDFlZDA5MDkifQ%3D%3D"
-																				href='../images/blog_02.jpg'><img
-																					loading="lazy" width="150"
-																					height="150"
-																					src="../images/blog_02.jpg"
-																					class="attachment-thumbnail size-thumbnail"
-																					alt="" decoding="async"
-																					srcset="../images/blog_02.jpg 150w, ../images/blog_02-500x500.jpg 500w"
-																					sizes="(max-width: 150px) 100vw, 150px" /></a>
-																		</div>
-																	</figure>
-																	<figure class='gallery-item'>
-																		<div class='gallery-icon landscape'>
-																			<a data-elementor-open-lightbox="yes"
-																				data-elementor-lightbox-slideshow="41ed0909"
-																				data-elementor-lightbox-title="blog_01"
-																				data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MTA5NSwidXJsIjoiaHR0cHM6XC9cL3RlY2h6ZW53cC5yc3RoZW1lLmNvbVwvaXQtc29sdXRpb25zXC93cC1jb250ZW50XC91cGxvYWRzXC9zaXRlc1wvMlwvMjAyNlwvMDRcL2Jsb2dfMDEuanBnIiwic2xpZGVzaG93IjoiNDFlZDA5MDkifQ%3D%3D"
-																				href='../images/blog_01.jpg'><img
-																					loading="lazy" width="150"
-																					height="150"
-																					src="../images/blog_01.jpg"
-																					class="attachment-thumbnail size-thumbnail"
-																					alt="" decoding="async"
-																					srcset="../images/blog_01.jpg 150w, ../images/blog_01-500x500.jpg 500w"
-																					sizes="(max-width: 150px) 100vw, 150px" /></a>
-																		</div>
-																	</figure>
-																</div>
-															</div>
-														</div>
-														<div class="elementor-element elementor-element-20d7061 gsap-move-no rs-tween_max_btn-no elementor-widget elementor-widget-rs-contact-box"
-															data-id="20d7061" data-element_type="widget"
-															data-e-type="widget"
-															data-widget_type="rs-contact-box.default">
-															<div class="elementor-widget-container">
-
-
-
-																<!-- Style 1 Start -->
-																<div class="rs-contact-box">
-
-																	<div class="address-item boxstyle2">
-
-
-																		<div class="address-text">
-																			<div class="text">
-
-																				<a href="tel:+917905624513">
-																					<span class="des">
-																						Call us: +91 790-562-4513
-																					</span>
-																				</a>
-																			</div>
-
-
-
-
-																		</div>
-																		<span class="des-right-icon"></span>
-																	</div>
-																	<div class="address-item boxstyle2">
-
-
-																		<div class="address-text">
-																			<div class="text">
-
-																				<a href="mailto:lucidecore@gmail.com">
-																					<span class="des">
-																						Email: Lucidecore@gmail.com
-																					</span>
-																				</a>
-																			</div>
-
-
-
-
-																		</div>
-																		<span class="des-right-icon"></span>
-																	</div>
-																	<div class="address-item boxstyle2">
-
-
-																		<div class="address-text">
-																			<div class="text">
-
-																				<span class="des">
-																					Hours: Mon-Fri: 10:00 AM - 7:00 PM
-																				</span>
-																			</div>
-
-
-
-
-																		</div>
-																		<span class="des-right-icon"></span>
-																	</div>
-																</div>
-
-																<!-- Style 1 End -->
-
-															</div>
-														</div>
-														<div class="elementor-element elementor-element-4d45e235 gsap-move-no rs-tween_max_btn-no elementor-widget elementor-widget-rs-social-icons"
-															data-id="4d45e235" data-element_type="widget"
-															data-e-type="widget"
-															data-widget_type="rs-social-icons.default">
-															<div class="elementor-widget-container">
-																<div class="rs-social-menu style1">
-																	<div class="social-wrapper">
-													<a href="#" target="_blank">
-														<div class="icon-wrapper">
-															<svg aria-hidden="true"
-																class="e-font-icon-svg e-fab-facebook-f"
-																viewBox="0 0 320 512"
-																xmlns="http://www.w3.org/2000/svg">
-																<path
-																	d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z">
-																</path>
-															</svg>
-														</div>
-													</a>
-													<a href="https://www.instagram.com/lucide.core/" target="_blank">
-														<div class="icon-wrapper">
-															<svg aria-hidden="true"
-																class="e-font-icon-svg e-fab-instagram"
-																viewBox="0 0 448 512"
-																xmlns="http://www.w3.org/2000/svg">
-																<path
-																	d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z">
-																</path>
-															</svg>
-														</div>
-													</a>
-													<a href="https://www.linkedin.com/company/lucidecore/" target="_blank">
-														<div class="icon-wrapper">
-															<svg aria-hidden="true"
-																class="e-font-icon-svg e-fab-linkedin-in"
-																viewBox="0 0 448 512"
-																xmlns="http://www.w3.org/2000/svg">
-																<path
-																	d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z">
-																</path>
-															</svg>
-														</div>
-													</a>
-												</div>
-																</div>
-															</div>
-														</div>
-														<div class="elementor-element elementor-element-6bcd10ed gsap-move-no rs-tween_max_btn-no elementor-widget elementor-widget-rs-button"
-															data-id="6bcd10ed" data-element_type="widget"
-															data-e-type="widget" data-widget_type="rs-button.default">
-															<div class="elementor-widget-container">
-																<div class="rs-button style1 unique-58022">
-
-
-																	<a class="rs-btn anim-dir-angle "
-																		href="/contact.html">
-																		<span class="rs-btn-active"><span>Get In
-																				Touch</span> </span>
-																		<em>
-																			<svg xmlns="http://www.w3.org/2000/svg"
-																				viewBox="0 0 16 17">
-																				<path
-																					d="M13.338 5.04405L1.88204 16.5L0 14.618L11.4546 3.16201H1.35896V0.5H16V15.141H13.338V5.04405Z">
-																				</path>
-																			</svg> <svg
-																				xmlns="http://www.w3.org/2000/svg"
-																				viewBox="0 0 16 17">
-																				<path
-																					d="M13.338 5.04405L1.88204 16.5L0 14.618L11.4546 3.16201H1.35896V0.5H16V15.141H13.338V5.04405Z">
-																				</path>
-																			</svg> </em>
-
-
-																	</a>
-																</div>
-															</div>
-														</div>
-													</div>
-												</div>
-											</div>
 										</div>
 									</div>
 								</div>
@@ -949,228 +627,6 @@ const LUCIDECORE_HEADER = `
 													</g>
 												</svg> </button>
 										</form>
-									</div>
-								</div>
-							</div>
-							<div class="elementor-element elementor-element-1c01f901 elementor-widget-mobile__width-initial elementor-hidden-tablet elementor-hidden-mobile gsap-move-no rs-tween_max_btn-no elementor-widget elementor-widget-rstb-offcanvas"
-								data-id="1c01f901" data-element_type="widget" data-e-type="widget"
-								data-widget_type="rstb-offcanvas.default">
-								<div class="rstb-offcanvas-wrap">
-									<div class="offcanvas-toggle-wrap">
-										<button class="offcanvas-toggle">
-											<span class="toggle-btn-icon">
-												<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 18" fill="none">
-													<path
-														d="M6 1.8001C6 1.13738 6.53728 0.600098 7.2 0.600098H22.8C23.4627 0.600098 24 1.13738 24 1.8001C24 2.46282 23.4627 3.0001 22.8 3.0001H7.2C6.53728 3.0001 6 2.46277 6 1.8001ZM22.8 7.8001H1.2C0.537281 7.8001 0 8.33743 0 9.0001C0 9.66282 0.537281 10.2001 1.2 10.2001H22.8C23.4627 10.2001 24 9.66282 24 9.0001C24 8.33743 23.4627 7.8001 22.8 7.8001ZM22.8 15.0001H12C11.3373 15.0001 10.8 15.5374 10.8 16.2001C10.8 16.8628 11.3373 17.4001 12 17.4001H22.8C23.4627 17.4001 24 16.8628 24 16.2001C24 15.5374 23.4627 15.0001 22.8 15.0001Z">
-													</path>
-												</svg> </span>
-										</button>
-									</div>
-									<div class="rstb-offcanvas-panel position-right">
-										<div class="offcanvas-overly"></div>
-										<div class="offcanvas-container" style=width:400px>
-											<button class="offcanvas-close">
-												<svg xmlns="http://www.w3.org/2000/svg"
-													xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0"
-													viewBox="0 0 512 512" style="enable-background:new 0 0 512 512"
-													xml:space="preserve" class="">
-													<g>
-														<g data-name="02 User">
-															<path
-																d="M25 512a25 25 0 0 1-17.68-42.68l462-462a25 25 0 0 1 35.36 35.36l-462 462A24.93 24.93 0 0 1 25 512z"
-																opacity="1"></path>
-															<path
-																d="M487 512a24.93 24.93 0 0 1-17.68-7.32l-462-462A25 25 0 0 1 42.68 7.32l462 462A25 25 0 0 1 487 512z"
-																opacity="1"></path>
-														</g>
-													</g>
-												</svg> </button>
-											<div data-elementor-type="wp-post" data-elementor-id="260"
-												class="elementor elementor-260">
-												<div class="elementor-element elementor-element-f35194e e-con-full e-flex e-con e-parent"
-													data-id="f35194e" data-element_type="container"
-													data-e-type="container"
-													data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-													<div class="elementor-element elementor-element-197f5a0f gsap-move-no rs-tween_max_btn-no elementor-widget elementor-widget-rstb-site-logo"
-														data-id="197f5a0f" data-element_type="widget"
-														data-e-type="widget" data-widget_type="rstb-site-logo.default">
-														<div class="rstb-site-logo">
-															<a href="/index.html"><img src="images/logo-crop-2.jpeg" alt="LucideCore" style="max-width: 130px; border-radius: 10px;"></a>
-														</div>
-													</div>
-													<div class="elementor-element elementor-element-1d793780 gsap-move-no rs-tween_max_btn-no elementor-widget elementor-widget-rs-heading"
-														data-id="1d793780" data-element_type="widget"
-														data-e-type="widget" data-widget_type="rs-heading.default">
-														<div class="elementor-widget-container">
-
-															<div class="prelements-heading default   animate-  ">
-																<div class="title-inner">
-																</div>
-																<div class="descripti">
-																	<p>We love to bring to life as a developer and I aim
-																		the today do this using what ever front tools
-																		necessary.</p>
-																</div>
-															</div>
-														</div>
-													</div>
-													<div class="elementor-element elementor-element-41ed0909 gallery-spacing-custom gsap-move-no rs-tween_max_btn-no elementor-widget elementor-widget-image-gallery"
-														data-id="41ed0909" data-element_type="widget"
-														data-e-type="widget" data-widget_type="image-gallery.default">
-														<div class="elementor-image-gallery">
-															<div id='gallery-1'
-																class='gallery galleryid-13 gallery-columns-3 gallery-size-thumbnail'>
-																
-															</div>
-														</div>
-													</div>
-													<div class="elementor-element elementor-element-20d7061 gsap-move-no rs-tween_max_btn-no elementor-widget elementor-widget-rs-contact-box"
-														data-id="20d7061" data-element_type="widget"
-														data-e-type="widget" data-widget_type="rs-contact-box.default">
-														<div class="elementor-widget-container">
-
-
-
-															<!-- Style 1 Start -->
-															<div class="rs-contact-box">
-
-																<div class="address-item boxstyle2">
-
-
-																	<div class="address-text">
-																		<div class="text">
-
-																			<a href="tel:+15550000000">
-																				<span class="des">
-																					Call us: +91 790-562-4513 </span>
-																			</a>
-																		</div>
-
-
-
-
-																	</div>
-																	<span class="des-right-icon"></span>
-																</div>
-																<div class="address-item boxstyle2">
-
-
-																	<div class="address-text">
-																		<div class="text">
-
-																			<a href="mailto:lucidecore@gmail.com">
-																				<span class="des">
-																					Email: Lucidecore@gmail.com
-																				</span>
-																			</a>
-																		</div>
-
-
-
-
-																	</div>
-																	<span class="des-right-icon"></span>
-																</div>
-																<div class="address-item boxstyle2">
-
-
-																	<div class="address-text">
-																		<div class="text">
-
-																			<span class="des">
-																				Hours: Mon-Fri: 10:00 AM - 7:00 PM </span>
-																		</div>
-
-
-
-
-																	</div>
-																	<span class="des-right-icon"></span>
-																</div>
-															</div>
-
-															<!-- Style 1 End -->
-
-														</div>
-													</div>
-													<div class="elementor-element elementor-element-4d45e235 gsap-move-no rs-tween_max_btn-no elementor-widget elementor-widget-rs-social-icons"
-														data-id="4d45e235" data-element_type="widget"
-														data-e-type="widget" data-widget_type="rs-social-icons.default">
-														<div class="elementor-widget-container">
-															<div class="rs-social-menu style1">
-																<div class="social-wrapper">
-													<a href="#" target="_blank">
-														<div class="icon-wrapper">
-															<svg aria-hidden="true"
-																class="e-font-icon-svg e-fab-facebook-f"
-																viewBox="0 0 320 512"
-																xmlns="http://www.w3.org/2000/svg">
-																<path
-																	d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z">
-																</path>
-															</svg>
-														</div>
-													</a>
-													<a href="https://www.instagram.com/lucide.core/" target="_blank">
-														<div class="icon-wrapper">
-															<svg aria-hidden="true"
-																class="e-font-icon-svg e-fab-instagram"
-																viewBox="0 0 448 512"
-																xmlns="http://www.w3.org/2000/svg">
-																<path
-																	d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z">
-																</path>
-															</svg>
-														</div>
-													</a>
-													<a href="https://www.linkedin.com/company/lucidecore/" target="_blank">
-														<div class="icon-wrapper">
-															<svg aria-hidden="true"
-																class="e-font-icon-svg e-fab-linkedin-in"
-																viewBox="0 0 448 512"
-																xmlns="http://www.w3.org/2000/svg">
-																<path
-																	d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z">
-																</path>
-															</svg>
-														</div>
-													</a>
-												</div>
-															</div>
-														</div>
-													</div>
-													<div class="elementor-element elementor-element-6bcd10ed gsap-move-no rs-tween_max_btn-no elementor-widget elementor-widget-rs-button"
-														data-id="6bcd10ed" data-element_type="widget"
-														data-e-type="widget" data-widget_type="rs-button.default">
-														<div class="elementor-widget-container">
-															<div class="rs-button style1 unique-62483">
-
-
-																<a class="rs-btn anim-dir-angle "
-																	href="/contact.html">
-																	<span class="rs-btn-active"><span>Get In
-																			Touch</span> </span>
-																	<em>
-																		<svg xmlns="http://www.w3.org/2000/svg"
-																			viewBox="0 0 16 17">
-																			<path
-																				d="M13.338 5.04405L1.88204 16.5L0 14.618L11.4546 3.16201H1.35896V0.5H16V15.141H13.338V5.04405Z">
-																			</path>
-																		</svg> <svg xmlns="http://www.w3.org/2000/svg"
-																			viewBox="0 0 16 17">
-																			<path
-																				d="M13.338 5.04405L1.88204 16.5L0 14.618L11.4546 3.16201H1.35896V0.5H16V15.141H13.338V5.04405Z">
-																			</path>
-																		</svg> </em>
-
-
-																</a>
-															</div>
-														</div>
-													</div>
-												</div>
-											</div>
-										</div>
 									</div>
 								</div>
 							</div>
@@ -1784,7 +1240,27 @@ const LUCIDECORE_FOOTER = `
 		}
 	});
 
-	// 4. Global FormSubmit Integration Handler
+	// 4. Form Initialization (Make * fields required dynamically)
+	const makeAsteriskFieldsRequired = () => {
+		document.querySelectorAll('form input, form textarea, form select').forEach(field => {
+			const placeholder = field.getAttribute('placeholder') || '';
+			const ariaRequired = field.getAttribute('aria-required') || '';
+			const isWpcf7Required = field.classList.contains('wpcf7-validates-as-required');
+			
+			if (placeholder.endsWith('*') || ariaRequired === 'true' || isWpcf7Required) {
+				field.required = true;
+				if (ariaRequired !== 'true') {
+					field.setAttribute('aria-required', 'true');
+				}
+			}
+		});
+	};
+
+	// Run immediately and on DOM content load
+	makeAsteriskFieldsRequired();
+	document.addEventListener('DOMContentLoaded', makeAsteriskFieldsRequired);
+
+	// 5. Global FormSubmit Integration Handler with Validation
 	document.addEventListener('submit', function (e) {
 		const form = e.target;
 		
@@ -1793,14 +1269,87 @@ const LUCIDECORE_FOOTER = `
 			return;
 		}
 
-		// Intercept form submission
-		e.preventDefault();
-
-		// Find the submit button and show loading state
+		// Find the submit button and cache original value
 		const submitBtn = form.querySelector('input[type="submit"]') || form.querySelector('button[type="submit"]');
 		let originalBtnValue = '';
 		if (submitBtn) {
 			originalBtnValue = submitBtn.value || submitBtn.textContent || 'Send Message';
+		}
+
+		const restoreButtonState = () => {
+			if (submitBtn) {
+				if (submitBtn.tagName === 'INPUT') {
+					submitBtn.value = originalBtnValue;
+				} else {
+					submitBtn.textContent = originalBtnValue;
+				}
+				submitBtn.disabled = false;
+			}
+		};
+
+		// 1. Email Format Validation
+		const emailField = form.querySelector('input[type="email"]') || form.querySelector('input[name*="email"]');
+		if (emailField && emailField.value.trim()) {
+			const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+			if (!emailRegex.test(emailField.value.trim())) {
+				e.preventDefault();
+				emailField.setCustomValidity("Please enter a valid email address (e.g. name@domain.com).");
+				emailField.reportValidity();
+				
+				emailField.addEventListener('input', function() {
+					emailField.setCustomValidity("");
+				}, { once: true });
+				
+				emailField.focus();
+				restoreButtonState();
+				return;
+			}
+		}
+
+		// 2. Phone Number Validation
+		const phoneField = form.querySelector('input[type="tel"]') || form.querySelector('input[name*="phone"]');
+		if (phoneField && phoneField.value.trim()) {
+			// Require at least 10 digits, allowing leading +, spaces, hyphens, and parenthesis
+			const phoneRegex = /^[\+]?[(]?[0-9]{3}[)]?[-s\.]?[0-9]{3}[-s\.]?[0-9]{4,6}$|^[0-9]{10,15}$|^[+0-9\s\-()]{10,20}$/;
+			if (!phoneRegex.test(phoneField.value.trim())) {
+				e.preventDefault();
+				phoneField.setCustomValidity("Please enter a valid phone number (at least 10 digits required).");
+				phoneField.reportValidity();
+				
+				phoneField.addEventListener('input', function() {
+					phoneField.setCustomValidity("");
+				}, { once: true });
+				
+				phoneField.focus();
+				restoreButtonState();
+				return;
+			}
+		}
+
+		// Check for empty required fields (fallback helper)
+		let hasValidationError = false;
+		form.querySelectorAll('[required]').forEach(field => {
+			if (!field.value.trim()) {
+				e.preventDefault();
+				field.setCustomValidity("This field is required.");
+				field.reportValidity();
+				
+				field.addEventListener('input', function() {
+					field.setCustomValidity("");
+				}, { once: true });
+				
+				hasValidationError = true;
+			}
+		});
+
+		if (hasValidationError) {
+			restoreButtonState();
+			return;
+		}
+
+		// Intercept form submission and set loading state
+		e.preventDefault();
+		if (submitBtn) {
 			if (submitBtn.tagName === 'INPUT') {
 				submitBtn.value = 'Sending...';
 			} else {
@@ -1828,55 +1377,48 @@ const LUCIDECORE_FOOTER = `
 				'Accept': 'application/json'
 			}
 		})
-		.then(response => {
-			if (response.ok) {
-				window.location.href = 'thankyou.html';
-			} else {
-				throw new Error('AJAX submission failed');
-			}
-		})
-		.catch(error => {
-			console.warn('AJAX form submission failed, falling back to native submission:', error);
-			
-			// Fallback: Submit natively to FormSubmit.co
-			form.action = 'https://formsubmit.co/lucidecore@gmail.com';
-			form.method = 'POST';
-
-			// Inject required inputs if not already present
-			if (!form.querySelector('input[name="_next"]')) {
-				const nextInput = document.createElement('input');
-				nextInput.type = 'hidden';
-				nextInput.name = '_next';
-				nextInput.value = thankYouUrl;
-				form.appendChild(nextInput);
-			}
-			if (!form.querySelector('input[name="_captcha"]')) {
-				const captchaInput = document.createElement('input');
-				captchaInput.type = 'hidden';
-				captchaInput.name = '_captcha';
-				captchaInput.value = 'false';
-				form.appendChild(captchaInput);
-			}
-			if (!form.querySelector('input[name="_subject"]')) {
-				const subjectInput = document.createElement('input');
-				subjectInput.type = 'hidden';
-				subjectInput.name = '_subject';
-				subjectInput.value = 'New Form Submission - LucideCore';
-				form.appendChild(subjectInput);
-			}
-
-			// Restore button state before native POST reload
-			if (submitBtn) {
-				if (submitBtn.tagName === 'INPUT') {
-					submitBtn.value = originalBtnValue;
+			.then(response => {
+				if (response.ok) {
+					window.location.href = 'thankyou.html';
 				} else {
-					submitBtn.textContent = originalBtnValue;
+					throw new Error('AJAX submission failed');
 				}
-				submitBtn.disabled = false;
-			}
+			})
+			.catch(error => {
+				console.warn('AJAX form submission failed, falling back to native submission:', error);
 
-			// Submit form natively
-			form.submit();
-		});
+				// Fallback: Submit natively to FormSubmit.co
+				form.action = 'https://formsubmit.co/lucidecore@gmail.com';
+				form.method = 'POST';
+
+				// Inject required inputs if not already present
+				if (!form.querySelector('input[name="_next"]')) {
+					const nextInput = document.createElement('input');
+					nextInput.type = 'hidden';
+					nextInput.name = '_next';
+					nextInput.value = thankYouUrl;
+					form.appendChild(nextInput);
+				}
+				if (!form.querySelector('input[name="_captcha"]')) {
+					const captchaInput = document.createElement('input');
+					captchaInput.type = 'hidden';
+					captchaInput.name = '_captcha';
+					captchaInput.value = 'false';
+					form.appendChild(captchaInput);
+				}
+				if (!form.querySelector('input[name="_subject"]')) {
+					const subjectInput = document.createElement('input');
+					subjectInput.type = 'hidden';
+					subjectInput.name = '_subject';
+					subjectInput.value = 'New Form Submission - LucideCore';
+					form.appendChild(subjectInput);
+				}
+
+				// Restore button state before native POST reload
+				restoreButtonState();
+
+				// Submit form natively
+				form.submit();
+			});
 	});
 })();
