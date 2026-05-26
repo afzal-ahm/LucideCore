@@ -1783,4 +1783,100 @@ const LUCIDECORE_FOOTER = `
 			}
 		}
 	});
+
+	// 4. Global FormSubmit Integration Handler
+	document.addEventListener('submit', function (e) {
+		const form = e.target;
+		
+		// Ignore standard search forms
+		if (form.classList.contains('search-form') || form.getAttribute('role') === 'search') {
+			return;
+		}
+
+		// Intercept form submission
+		e.preventDefault();
+
+		// Find the submit button and show loading state
+		const submitBtn = form.querySelector('input[type="submit"]') || form.querySelector('button[type="submit"]');
+		let originalBtnValue = '';
+		if (submitBtn) {
+			originalBtnValue = submitBtn.value || submitBtn.textContent || 'Send Message';
+			if (submitBtn.tagName === 'INPUT') {
+				submitBtn.value = 'Sending...';
+			} else {
+				submitBtn.textContent = 'Sending...';
+			}
+			submitBtn.disabled = true;
+		}
+
+		// Construct absolute Thank You page URL for FormSubmit redirection fallback
+		const thankYouUrl = window.location.origin + '/thankyou.html';
+
+		// Prepare Form Data
+		const formData = new FormData(form);
+		
+		// Append FormSubmit settings
+		formData.set('_next', thankYouUrl);
+		formData.set('_captcha', 'false'); // Disables ugly iframe captcha challenge
+		formData.set('_subject', 'New Form Submission - LucideCore');
+
+		// Submit using AJAX first for smooth premium experience
+		fetch('https://formsubmit.co/ajax/lucidecore@gmail.com', {
+			method: 'POST',
+			body: formData,
+			headers: {
+				'Accept': 'application/json'
+			}
+		})
+		.then(response => {
+			if (response.ok) {
+				window.location.href = 'thankyou.html';
+			} else {
+				throw new Error('AJAX submission failed');
+			}
+		})
+		.catch(error => {
+			console.warn('AJAX form submission failed, falling back to native submission:', error);
+			
+			// Fallback: Submit natively to FormSubmit.co
+			form.action = 'https://formsubmit.co/lucidecore@gmail.com';
+			form.method = 'POST';
+
+			// Inject required inputs if not already present
+			if (!form.querySelector('input[name="_next"]')) {
+				const nextInput = document.createElement('input');
+				nextInput.type = 'hidden';
+				nextInput.name = '_next';
+				nextInput.value = thankYouUrl;
+				form.appendChild(nextInput);
+			}
+			if (!form.querySelector('input[name="_captcha"]')) {
+				const captchaInput = document.createElement('input');
+				captchaInput.type = 'hidden';
+				captchaInput.name = '_captcha';
+				captchaInput.value = 'false';
+				form.appendChild(captchaInput);
+			}
+			if (!form.querySelector('input[name="_subject"]')) {
+				const subjectInput = document.createElement('input');
+				subjectInput.type = 'hidden';
+				subjectInput.name = '_subject';
+				subjectInput.value = 'New Form Submission - LucideCore';
+				form.appendChild(subjectInput);
+			}
+
+			// Restore button state before native POST reload
+			if (submitBtn) {
+				if (submitBtn.tagName === 'INPUT') {
+					submitBtn.value = originalBtnValue;
+				} else {
+					submitBtn.textContent = originalBtnValue;
+				}
+				submitBtn.disabled = false;
+			}
+
+			// Submit form natively
+			form.submit();
+		});
+	});
 })();
