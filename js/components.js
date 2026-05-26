@@ -667,7 +667,7 @@ const LUCIDECORE_HEADER = `
 															<div class="elementor-widget-container">
 																<div class="rs-social-menu style1">
 																	<div class="social-wrapper">
-													<a href="#">
+													<a href="#" target="_blank">
 														<div class="icon-wrapper">
 															<svg aria-hidden="true"
 																class="e-font-icon-svg e-fab-facebook-f"
@@ -679,7 +679,7 @@ const LUCIDECORE_HEADER = `
 															</svg>
 														</div>
 													</a>
-													<a href="https://www.instagram.com/lucide.core/">
+													<a href="https://www.instagram.com/lucide.core/" target="_blank">
 														<div class="icon-wrapper">
 															<svg aria-hidden="true"
 																class="e-font-icon-svg e-fab-instagram"
@@ -691,7 +691,7 @@ const LUCIDECORE_HEADER = `
 															</svg>
 														</div>
 													</a>
-													<a href="https://www.linkedin.com/company/lucidecore/">
+													<a href="https://www.linkedin.com/company/lucidecore/" target="_blank">
 														<div class="icon-wrapper">
 															<svg aria-hidden="true"
 																class="e-font-icon-svg e-fab-linkedin-in"
@@ -1099,7 +1099,7 @@ const LUCIDECORE_HEADER = `
 														<div class="elementor-widget-container">
 															<div class="rs-social-menu style1">
 																<div class="social-wrapper">
-													<a href="#">
+													<a href="#" target="_blank">
 														<div class="icon-wrapper">
 															<svg aria-hidden="true"
 																class="e-font-icon-svg e-fab-facebook-f"
@@ -1111,7 +1111,7 @@ const LUCIDECORE_HEADER = `
 															</svg>
 														</div>
 													</a>
-													<a href="https://www.instagram.com/lucide.core/">
+													<a href="https://www.instagram.com/lucide.core/" target="_blank">
 														<div class="icon-wrapper">
 															<svg aria-hidden="true"
 																class="e-font-icon-svg e-fab-instagram"
@@ -1123,7 +1123,7 @@ const LUCIDECORE_HEADER = `
 															</svg>
 														</div>
 													</a>
-													<a href="https://www.linkedin.com/company/lucidecore/">
+													<a href="https://www.linkedin.com/company/lucidecore/" target="_blank">
 														<div class="icon-wrapper">
 															<svg aria-hidden="true"
 																class="e-font-icon-svg e-fab-linkedin-in"
@@ -1289,7 +1289,7 @@ const LUCIDECORE_FOOTER = `
 										<div class="elementor-widget-container">
 											<div class="rs-social-menu style1">
 												<div class="social-wrapper">
-													<a href="#">
+													<a href="#" target="_blank">
 														<div class="icon-wrapper">
 															<svg aria-hidden="true"
 																class="e-font-icon-svg e-fab-facebook-f"
@@ -1301,7 +1301,7 @@ const LUCIDECORE_FOOTER = `
 															</svg>
 														</div>
 													</a>
-													<a href="https://www.instagram.com/lucide.core/">
+													<a href="https://www.instagram.com/lucide.core/" target="_blank">
 														<div class="icon-wrapper">
 															<svg aria-hidden="true"
 																class="e-font-icon-svg e-fab-instagram"
@@ -1313,7 +1313,7 @@ const LUCIDECORE_FOOTER = `
 															</svg>
 														</div>
 													</a>
-													<a href="https://www.linkedin.com/company/lucidecore/">
+													<a href="https://www.linkedin.com/company/lucidecore/" target="_blank">
 														<div class="icon-wrapper">
 															<svg aria-hidden="true"
 																class="e-font-icon-svg e-fab-linkedin-in"

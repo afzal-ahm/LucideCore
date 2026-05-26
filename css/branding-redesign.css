@@ -169,11 +169,7 @@ span.highlight,
     transition: all 0.3s ease;
 }
 
-.address-icon svg path,
-.icon_style svg path,
-.list-icon-wrap svg path {
-    fill: var(--primary-purple) !important;
-}
+
 
 .icon_style:hover,
 .address-icon:hover {
